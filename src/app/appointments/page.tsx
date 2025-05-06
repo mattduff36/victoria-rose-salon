@@ -1,0 +1,183 @@
+import Image from "next/image";
+import Link from "next/link";
+import AnimatedSection from "@/components/AnimatedSection";
+
+export default function Appointments() {
+  return (
+    <div className="min-h-screen">
+      {/* Hero Section */}
+      <section className="relative h-[40vh] flex items-center justify-center overflow-hidden">
+        <AnimatedSection 
+          className="absolute inset-0 z-0"
+          initial={{ scale: 1.2 }}
+          animate={{ scale: 1 }}
+          transition={{ duration: 1.5 }}
+        >
+          <Image
+            src="/hair_interior.jpg"
+            alt="Book an Appointment at Victoria Rose Salon"
+            fill
+            className="object-cover"
+            priority
+          />
+          <div className="absolute inset-0 bg-black/40" />
+        </AnimatedSection>
+        <AnimatedSection 
+          className="relative z-10 text-center text-white px-4"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1, delay: 0.5 }}
+        >
+          <h1 className="text-6xl md:text-8xl font-medium tracking-wide mb-4">Book Online</h1>
+          <p className="text-xl md:text-2xl font-light tracking-wider mb-8">Schedule Your Next Appointment</p>
+        </AnimatedSection>
+      </section>
+
+      {/* Booking Options */}
+      <section className="py-20 px-4">
+        <div className="max-w-7xl mx-auto">
+          <AnimatedSection
+            className="text-center mb-16"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
+          >
+            <h2 className="text-4xl font-bold mb-6">How Would You Like to Book?</h2>
+            <p className="text-xl max-w-3xl mx-auto">
+              Choose your preferred booking method below
+            </p>
+          </AnimatedSection>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {/* Phone Booking */}
+            <AnimatedSection
+              className="bg-[#7B67A1] text-white p-8 rounded-lg shadow-lg"
+              initial={{ opacity: 0, x: -100 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ 
+                duration: 0.8,
+                type: "spring",
+                stiffness: 100,
+                damping: 12
+              }}
+            >
+              <h3 className="text-2xl font-bold mb-4">Book by Phone</h3>
+              <p className="text-lg mb-6">
+                Call us directly to speak with our friendly staff and book your appointment.
+              </p>
+              <div className="text-3xl font-bold mb-8">01623 624119</div>
+              <p className="text-white/90 mb-4">Opening Hours:</p>
+              <ul className="space-y-2 text-white/90">
+                <li>Monday: Closed</li>
+                <li>Tuesday: 09:00 – 17:00</li>
+                <li>Wednesday: 09:00 – 17:00</li>
+                <li>Thursday: 09:00 – 19:00</li>
+                <li>Friday: 09:00 – 19:00</li>
+                <li>Saturday: 08:30 – 16:00</li>
+                <li>Sunday: Closed</li>
+              </ul>
+            </AnimatedSection>
+
+            {/* Online Booking */}
+            <AnimatedSection
+              className="bg-[#31734D] text-white p-8 rounded-lg shadow-lg"
+              initial={{ opacity: 0, x: 100 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ 
+                duration: 0.8,
+                type: "spring",
+                stiffness: 100,
+                damping: 12
+              }}
+            >
+              <h3 className="text-2xl font-bold mb-4">Book Online</h3>
+              <p className="text-lg mb-6">
+                Use our online booking system to schedule your appointment 24/7.
+              </p>
+              <ul className="space-y-4 mb-8 text-white/90">
+                <li>✓ Available 24/7</li>
+                <li>✓ Instant confirmation</li>
+                <li>✓ Choose your preferred stylist</li>
+                <li>✓ View real-time availability</li>
+                <li>✓ Receive appointment reminders</li>
+                <li>✓ Manage your bookings online</li>
+              </ul>
+              <a 
+                href="https://www.fresha.com/a/victoria-rose-hair-and-beauty-salon-mansfield-woodhouse-25-dunsil-road-zehqr10n/all-offer?menu=true&pId=68802&rwg_token=AAiGsoYtsIq8DsbkAukp1_UAjvtdR2-CFw8OIjZLtDOnE93dSv-XanUBi8lMHl-tMd5f0uM_lrRUUFzO_xlJbcvmp30akDRuDQ%3D%3D&gei=-qkKaPTmN5m6hbIP3v-xoAg"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-[#31734D] hover:bg-[#285f3f] text-white font-bold py-3 px-8 rounded-full transition-colors inline-block"
+              >
+                Book Online Now
+              </a>
+            </AnimatedSection>
+          </div>
+        </div>
+      </section>
+
+      {/* Additional Information */}
+      <section className="py-20 px-4 bg-gray-50">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {[
+              {
+                title: "Cancellation Policy",
+                description: "Please provide at least 24 hours notice for cancellations to avoid any charges."
+              },
+              {
+                title: "First Visit",
+                description: "New clients are recommended to arrive 10 minutes early to complete consultation forms."
+              },
+              {
+                title: "Gift Vouchers",
+                description: "Gift vouchers are available for purchase in salon or over the phone."
+              }
+            ].map((info, index) => (
+              <AnimatedSection
+                key={info.title}
+                className="bg-white p-6 rounded-lg shadow-md"
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ 
+                  duration: 0.8,
+                  delay: index * 0.2
+                }}
+              >
+                <h3 className="text-xl font-bold mb-4">{info.title}</h3>
+                <p className="text-gray-600">{info.description}</p>
+              </AnimatedSection>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Contact CTA */}
+      <section className="py-20 px-4">
+        <div className="max-w-7xl mx-auto text-center">
+          <AnimatedSection
+            className="max-w-3xl mx-auto"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
+          >
+            <h2 className="text-4xl font-bold mb-6">Need Help?</h2>
+            <p className="text-lg text-gray-700 mb-8">
+              We&apos;re excited to welcome you to Victoria Rose Salon. Book your appointment today and experience our exceptional service.
+            </p>
+            <Link 
+              href="/contact" 
+              className="border-2 border-[#31734D] text-[#31734D] hover:bg-[#31734D]/10 font-bold py-3 px-8 rounded-full transition-colors"
+            >
+              Contact Us
+            </Link>
+          </AnimatedSection>
+        </div>
+      </section>
+    </div>
+  );
+} 
