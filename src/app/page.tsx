@@ -2,6 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 import AnimatedSection from "@/components/AnimatedSection";
 
+// Add revalidation configuration
+export const revalidate = 3600; // Revalidate every hour
+
 export default function Home() {
   return (
     <div>
