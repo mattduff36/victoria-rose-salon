@@ -132,7 +132,7 @@ export default function About() {
               >
                 <div className="relative h-64">
                   <Image
-                    src={teamMember.image}
+                    src={teamMember.image || '/default-team.jpg'}
                     alt={teamMember.name}
                     fill
                     className="object-cover"
