@@ -10,6 +10,7 @@ export interface Service {
   category: string;
   subcategory: string;
   freshaId?: string;
+  bookable?: boolean;
 }
 
 export async function getServices(): Promise<Service[]> {
@@ -22,7 +23,8 @@ export async function getServices(): Promise<Service[]> {
     duration: service.duration,
     category: service.category.toLowerCase(),
     subcategory: service.subcategory,
-    freshaId: service.freshaId
+    freshaId: service.freshaId,
+    bookable: service.bookableRaw ? service.bookableRaw.toLowerCase() !== 'no' : true
   }));
 }
 

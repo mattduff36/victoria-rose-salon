@@ -51,6 +51,7 @@ export async function getServices() {
       duration: row[4],
       subcategory: row[5],
       freshaId: row[6],
+      bookableRaw: row[7]
     }));
   } catch (error: any) {
     console.error('Error fetching services:', error);

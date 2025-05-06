@@ -53,7 +53,7 @@ export default async function HairServices() {
           >
             <h2 className="text-4xl font-bold mb-6 text-gray-900">Our Hair Services</h2>
             <p className="text-xl max-w-3xl mx-auto text-gray-700">
-              From classic cuts to creative coloring, our expert stylists deliver exceptional results.
+              From classic cuts to creative colouring, our expert stylists deliver exceptional results.
             </p>
           </AnimatedSection>
           

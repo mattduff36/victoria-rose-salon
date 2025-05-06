@@ -28,8 +28,8 @@ export default function Home() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.5 }}
         >
-          <h1 className="text-6xl md:text-8xl tracking-wide mb-4">Victoria Rose Salon</h1>
-          <p className="text-xl md:text-2xl font-semibold tracking-wider mb-8">Professional Hair & Beauty Services</p>
+          <h1 className="text-7xl md:text-9xl tracking-wide mb-4">Victoria Rose</h1>
+          <p className="text-3xl md:text-4xl font-semibold tracking-wider mb-8">Hair and Beauty Salon</p>
           <AnimatedSection
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
@@ -62,7 +62,7 @@ export default function Home() {
             {[
               {
                 title: "Hair Services",
-                description: "Professional hair cutting, styling, and coloring services for all hair types.",
+                description: "Professional hair cutting, styling, and colouring services for all hair types.",
                 link: "/hair"
               },
               {

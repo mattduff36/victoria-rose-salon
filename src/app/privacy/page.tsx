@@ -10,7 +10,7 @@ export default function Privacy() {
       >
         <h1 className="text-4xl font-bold text-white mb-8">Privacy Notice</h1>
         
-        <p className="text-lg text-gray-700 mb-8">
+        <p className="text-lg text-white mb-8">
           We&apos;re committed to protecting your privacy and ensuring the security of your personal information.
         </p>
 

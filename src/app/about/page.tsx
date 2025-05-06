@@ -102,9 +102,10 @@ export default function About() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                name: "Victoria Clark",
-                role: "Salon Owner and Stylist",
-                description: "With over 20 years of experience, Victoria specializes in color and cutting techniques."
+                name: "Victoria",
+                role: "Salon Owner & Senior Stylist",
+                image: "/victoria.jpg",
+                description: "With over 20 years of experience, Victoria specializes in colour and cutting techniques."
               },
               {
                 name: "Carrie Healey",
@@ -112,9 +113,10 @@ export default function About() {
                 description: "Carrie is our expert in advanced beauty treatments and salon management."
               },
               {
-                name: "Georgia McGrath",
+                name: "Georgia",
                 role: "Senior Stylist",
-                description: "Georgia excels in creative coloring and precision cutting techniques."
+                image: "/georgia.jpg",
+                description: "Georgia excels in creative colouring and precision cutting techniques."
               }
             ].map((teamMember, index) => (
               <AnimatedSection
@@ -130,7 +132,7 @@ export default function About() {
               >
                 <div className="relative h-64">
                   <Image
-                    src={`/team/${teamMember.name} - ${teamMember.role}.jpeg`}
+                    src={teamMember.image}
                     alt={teamMember.name}
                     fill
                     className="object-cover"

@@ -88,7 +88,7 @@ export default function Footer() {
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.6 }}
         >
-          <p className="mb-2">© {new Date().getFullYear()} Victoria Rose Salon - All Rights Reserved</p>
+          <p className="mb-2">Website developed by mpdee.co.uk © 2025. All rights reserved.</p>
           <Link href="/privacy" className="text-gray-400 hover:text-white text-sm">
             Privacy Policy
           </Link>
