@@ -88,7 +88,7 @@ export default function Footer() {
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.6 }}
         >
-          <p className="mb-2">Website developed by mpdee.co.uk © 2025. All rights reserved.</p>
+          <p className="mb-2">Website developed by <Link href="https://mpdee.co.uk" target="_blank" rel="noopener noreferrer" className="hover:text-[#31734D] transition-colors">mpdee.co.uk</Link> © 2025. All rights reserved.</p>
           <Link href="/privacy" className="text-gray-400 hover:text-white text-sm">
             Privacy Policy
           </Link>
