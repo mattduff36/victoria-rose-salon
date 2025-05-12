@@ -30,7 +30,9 @@ const nextConfig = {
         permanent: true,
       },
     ]
-  }
+  },
+  // Add trailing slashes to ensure consistent URLs
+  trailingSlash: true,
 }
 
 module.exports = nextConfig
