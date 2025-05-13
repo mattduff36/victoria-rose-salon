@@ -8,9 +8,6 @@ const nextConfig = {
       },
     ],
   },
-  experimental: {
-    // Remove middleware from experimental config
-  },
 };
 
 export default nextConfig; 
