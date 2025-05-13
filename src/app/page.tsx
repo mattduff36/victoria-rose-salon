@@ -48,10 +48,11 @@ export default function Home() {
         >
           <Image
             src="/hero-bg.jpeg"
-            alt="Victoria Rose Salon"
+            alt="Victoria Rose Hair and Beauty Salon interior in Mansfield Woodhouse, showcasing our modern styling stations and welcoming atmosphere"
             fill
             className="object-cover"
             priority
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           />
           <div className="absolute inset-0 bg-black/50" />
         </AnimatedSection>
@@ -172,9 +173,10 @@ export default function Home() {
             >
               <Image
                 src="/beauty_interior.jpg"
-                alt="Salon Interior"
+                alt="Victoria Rose Salon's beauty treatment area in Mansfield Woodhouse, featuring our state-of-the-art equipment and relaxing environment"
                 fill
                 className="object-cover rounded-lg"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               />
             </AnimatedSection>
           </div>
