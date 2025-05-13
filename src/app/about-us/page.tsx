@@ -1,6 +1,36 @@
 import Image from "next/image";
 import Link from "next/link";
 import AnimatedSection from "@/components/AnimatedSection";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About Victoria Rose Salon | Our Story & Values",
+  description: "Discover the story behind Victoria Rose Salon in Mansfield. Learn about our commitment to excellence, professional team, and dedication to providing exceptional hair and beauty services.",
+  keywords: "Victoria Rose Salon about, hair salon Mansfield history, beauty salon Mansfield story, salon values, professional team",
+  openGraph: {
+    title: "About Victoria Rose Salon | Our Story & Values",
+    description: "Discover the story behind Victoria Rose Salon in Mansfield. Learn about our commitment to excellence, professional team, and dedication to providing exceptional hair and beauty services.",
+    images: [
+      {
+        url: "/hero-bg.jpeg",
+        width: 1200,
+        height: 630,
+        alt: "Victoria Rose Salon Team"
+      }
+    ],
+    locale: "en_GB",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "About Victoria Rose Salon | Our Story & Values",
+    description: "Discover the story behind Victoria Rose Salon in Mansfield. Learn about our commitment to excellence, professional team, and dedication to providing exceptional hair and beauty services.",
+    images: ["/hero-bg.jpeg"],
+  },
+  alternates: {
+    canonical: "https://victoria-rose-salon.vercel.app/about-us",
+  },
+};
 
 export default function AboutUs() {
   return (

@@ -4,6 +4,36 @@ import { useState } from 'react';
 import Image from "next/image";
 import Link from "next/link";
 import AnimatedSection from "@/components/AnimatedSection";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Contact Victoria Rose Salon | Book Your Appointment",
+  description: "Get in touch with Victoria Rose Salon in Mansfield. Book your hair or beauty appointment, find our location, or contact us for any inquiries. We're here to help!",
+  keywords: "Victoria Rose Salon contact, hair salon Mansfield booking, beauty salon Mansfield appointment, salon location, contact details",
+  openGraph: {
+    title: "Contact Victoria Rose Salon | Book Your Appointment",
+    description: "Get in touch with Victoria Rose Salon in Mansfield. Book your hair or beauty appointment, find our location, or contact us for any inquiries. We're here to help!",
+    images: [
+      {
+        url: "/exterior.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Victoria Rose Salon Exterior"
+      }
+    ],
+    locale: "en_GB",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Contact Victoria Rose Salon | Book Your Appointment",
+    description: "Get in touch with Victoria Rose Salon in Mansfield. Book your hair or beauty appointment, find our location, or contact us for any inquiries. We're here to help!",
+    images: ["/exterior.jpg"],
+  },
+  alternates: {
+    canonical: "https://victoria-rose-salon.vercel.app/contact",
+  },
+};
 
 export default function Contact() {
   return (

@@ -1,6 +1,36 @@
 import Image from "next/image";
 import Link from "next/link";
 import AnimatedSection from "@/components/AnimatedSection";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Victoria Rose Salon | Professional Hair & Beauty Services in Mansfield",
+  description: "Experience exceptional hair and beauty services at Victoria Rose Salon in Mansfield. Expert stylists, premium treatments, and a welcoming atmosphere. Book your appointment today!",
+  keywords: "hair salon Mansfield, beauty salon Mansfield, hair styling, beauty treatments, professional stylists, Victoria Rose Salon",
+  openGraph: {
+    title: "Victoria Rose Salon | Professional Hair & Beauty Services in Mansfield",
+    description: "Experience exceptional hair and beauty services at Victoria Rose Salon in Mansfield. Expert stylists, premium treatments, and a welcoming atmosphere.",
+    images: [
+      {
+        url: "/hero-bg.jpeg",
+        width: 1200,
+        height: 630,
+        alt: "Victoria Rose Salon Interior"
+      }
+    ],
+    locale: "en_GB",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Victoria Rose Salon | Professional Hair & Beauty Services in Mansfield",
+    description: "Experience exceptional hair and beauty services at Victoria Rose Salon in Mansfield. Expert stylists, premium treatments, and a welcoming atmosphere.",
+    images: ["/hero-bg.jpeg"],
+  },
+  alternates: {
+    canonical: "https://victoria-rose-salon.vercel.app",
+  },
+};
 
 // Add revalidation configuration
 export const revalidate = 3600; // Revalidate every hour
