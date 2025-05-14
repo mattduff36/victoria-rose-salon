@@ -1,9 +1,9 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, Suspense } from 'react'
 import { useRouter, useSearchParams } from 'next/navigation'
 
-export default function PreviewLogin() {
+function PreviewLoginContent() {
   const [password, setPassword] = useState('')
   const router = useRouter()
   const searchParams = useSearchParams()
@@ -61,5 +61,23 @@ export default function PreviewLogin() {
         </form>
       </div>
     </div>
+  )
+}
+
+export default function PreviewLogin() {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen flex items-center justify-center bg-gray-50">
+        <div className="max-w-md w-full space-y-8 p-8 bg-white rounded-lg shadow-lg">
+          <div className="animate-pulse">
+            <div className="h-8 bg-gray-200 rounded w-3/4 mx-auto"></div>
+            <div className="h-4 bg-gray-200 rounded w-1/2 mx-auto mt-4"></div>
+            <div className="h-10 bg-gray-200 rounded w-full mt-8"></div>
+          </div>
+        </div>
+      </div>
+    }>
+      <PreviewLoginContent />
+    </Suspense>
   )
 } 
