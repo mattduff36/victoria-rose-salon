@@ -4,18 +4,18 @@ import AnimatedSection from "@/components/AnimatedSection";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Victoria Rose Salon | Professional Hair & Beauty Services in Mansfield",
-  description: "Experience exceptional hair and beauty services at Victoria Rose Salon in Mansfield. Expert stylists, premium treatments, and a welcoming atmosphere. Book your appointment today!",
-  keywords: "hair salon Mansfield, beauty salon Mansfield, hair styling, beauty treatments, professional stylists, Victoria Rose Salon",
+  title: "Victoria Rose Hair & Beauty Salon | Mansfield Woodhouse, Nottinghamshire",
+  description: "Professional hair and beauty services in Mansfield Woodhouse, Nottinghamshire. Expert stylists offering cuts, color, styling, and beauty treatments. Book your appointment today!",
+  keywords: "hair salon Mansfield Woodhouse, beauty salon Nottinghamshire, hair styling Mansfield, beauty treatments Nottinghamshire, professional stylists, Victoria Rose Salon",
   openGraph: {
-    title: "Victoria Rose Salon | Professional Hair & Beauty Services in Mansfield",
-    description: "Experience exceptional hair and beauty services at Victoria Rose Salon in Mansfield. Expert stylists, premium treatments, and a welcoming atmosphere.",
+    title: "Victoria Rose Hair & Beauty Salon | Mansfield Woodhouse, Nottinghamshire",
+    description: "Professional hair and beauty services in Mansfield Woodhouse, Nottinghamshire. Expert stylists offering cuts, color, styling, and beauty treatments.",
     images: [
       {
-        url: "/hero-bg.jpeg",
+        url: "/Victoria Rose Logo White Trans.png",
         width: 1200,
         height: 630,
-        alt: "Victoria Rose Salon Interior"
+        alt: "Victoria Rose Hair & Beauty Salon - Mansfield Woodhouse, Nottinghamshire"
       }
     ],
     locale: "en_GB",
@@ -23,9 +23,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Victoria Rose Salon | Professional Hair & Beauty Services in Mansfield",
-    description: "Experience exceptional hair and beauty services at Victoria Rose Salon in Mansfield. Expert stylists, premium treatments, and a welcoming atmosphere.",
-    images: ["/hero-bg.jpeg"],
+    title: "Victoria Rose Hair & Beauty Salon | Mansfield Woodhouse, Nottinghamshire",
+    description: "Professional hair and beauty services in Mansfield Woodhouse, Nottinghamshire. Expert stylists offering cuts, color, styling, and beauty treatments.",
+    images: ["/Victoria Rose Logo White Trans.png"],
   },
   alternates: {
     canonical: "https://victoria-rose-salon.vercel.app",
@@ -48,11 +48,12 @@ export default function Home() {
         >
           <Image
             src="/hero-bg.jpeg"
-            alt="Victoria Rose Hair and Beauty Salon interior in Mansfield Woodhouse, showcasing our modern styling stations and welcoming atmosphere"
+            alt="Victoria Rose Hair and Beauty Salon interior in Mansfield Woodhouse, Nottinghamshire, showcasing our modern styling stations and welcoming atmosphere"
             fill
             className="object-cover"
             priority
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            sizes="(max-width: 640px) 640px, (max-width: 1024px) 1024px, 1920px"
+            quality={90}
           />
           <div className="absolute inset-0 bg-black/50" />
         </AnimatedSection>
@@ -64,6 +65,7 @@ export default function Home() {
         >
           <h1 className="text-7xl md:text-9xl tracking-wide mb-4">Victoria Rose</h1>
           <p className="text-3xl md:text-4xl font-semibold tracking-wider mb-8">Hair and Beauty Salon</p>
+          <p className="text-xl md:text-2xl mb-8">Mansfield Woodhouse, Nottinghamshire</p>
           <AnimatedSection
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
@@ -90,18 +92,18 @@ export default function Home() {
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
           >
-            Our Services
+            Our Services in Mansfield Woodhouse
           </AnimatedSection>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {[
               {
                 title: "Hair Services",
-                description: "Professional hair cutting, styling, and colouring services for all hair types.",
+                description: "Professional hair cutting, styling, and colouring services for all hair types in Mansfield Woodhouse.",
                 link: "/hair"
               },
               {
                 title: "Beauty Services",
-                description: "Comprehensive beauty treatments including nails, waxing, and advanced aesthetic services.",
+                description: "Comprehensive beauty treatments including nails, waxing, and advanced aesthetic services in Nottinghamshire.",
                 link: "/beauty"
               }
             ].map((service, index) => (
@@ -141,10 +143,10 @@ export default function Home() {
             >
               <h2 className="text-4xl font-bold mb-6">Welcome to Victoria Rose</h2>
               <p className="text-lg mb-6">
-                We are a professional hair and beauty salon located in Mansfield, offering a wide range of services to help you look and feel your best.
+                We are a professional hair and beauty salon located in Mansfield Woodhouse, Nottinghamshire, offering a wide range of services to help you look and feel your best.
               </p>
               <p className="text-lg mb-8">
-                Our team of experienced professionals is dedicated to providing exceptional service and outstanding results for every client.
+                Our team of experienced professionals is dedicated to providing exceptional service and outstanding results for every client in the Mansfield area.
               </p>
               <AnimatedSection
                 whileHover={{ scale: 1.05 }}
@@ -173,10 +175,11 @@ export default function Home() {
             >
               <Image
                 src="/beauty_interior.jpg"
-                alt="Victoria Rose Salon's beauty treatment area in Mansfield Woodhouse, featuring our state-of-the-art equipment and relaxing environment"
+                alt="Victoria Rose Salon's beauty treatment area in Mansfield Woodhouse, Nottinghamshire, featuring our state-of-the-art equipment and relaxing environment"
                 fill
                 className="object-cover rounded-lg"
-                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                sizes="(max-width: 640px) 640px, (max-width: 1024px) 1024px, 1920px"
+                quality={90}
               />
             </AnimatedSection>
           </div>
@@ -202,39 +205,20 @@ export default function Home() {
             viewport={{ once: true }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            Contact us today to schedule your next visit.
+            Visit us in Mansfield Woodhouse, Nottinghamshire
           </AnimatedSection>
           <AnimatedSection
-            className="flex flex-col sm:flex-row gap-6 justify-center items-center"
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.8, delay: 0.4 }}
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
           >
-            <AnimatedSection
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
+            <Link 
+              href="https://www.fresha.com/a/victoria-rose-hair-and-beauty-salon-mansfield-woodhouse-25-dunsil-road-zehqr10n/all-offer?menu=true&pId=68802&rwg_token=AAiGsoYtsIq8DsbkAukp1_UAjvtdR2-CFw8OIjZLtDOnE93dSv-XanUBi8lMHl-tMd5f0uM_lrRUUFzO_xlJbcvmp30akDRuDQ%3D%3D&gei=-qkKaPTmN5m6hbIP3v-xoAg"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-[#31734D] hover:bg-[#285f3f] text-white font-bold py-3 px-8 rounded-full transition-colors inline-block"
             >
-              <Link 
-                href="https://www.fresha.com/a/victoria-rose-hair-and-beauty-salon-mansfield-woodhouse-25-dunsil-road-zehqr10n/all-offer?menu=true&pId=68802&rwg_token=AAiGsoYtsIq8DsbkAukp1_UAjvtdR2-CFw8OIjZLtDOnE93dSv-XanUBi8lMHl-tMd5f0uM_lrRUUFzO_xlJbcvmp30akDRuDQ%3D%3D&gei=-qkKaPTmN5m6hbIP3v-xoAg"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-[#31734D] hover:bg-[#285f3f] text-white font-bold py-3 px-8 rounded-full transition-colors inline-block"
-              >
-                Book Your Appointment
-              </Link>
-            </AnimatedSection>
-            <AnimatedSection
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-            >
-              <Link 
-                href="/contact" 
-                className="border-2 border-[#31734D] text-[#31734D] hover:bg-[#31734D]/10 font-bold py-3 px-8 rounded-full transition-colors inline-block"
-              >
-                Contact Us
-              </Link>
-            </AnimatedSection>
+              Book Now
+            </Link>
           </AnimatedSection>
         </div>
       </section>
