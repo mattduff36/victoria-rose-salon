@@ -4,12 +4,12 @@ import AnimatedSection from "@/components/AnimatedSection";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact Victoria Rose Salon | Book Your Appointment",
-  description: "Get in touch with Victoria Rose Salon in Mansfield. Book your hair or beauty appointment, find our location, or contact us for any inquiries. We're here to help!",
-  keywords: "Victoria Rose Salon contact, hair salon Mansfield booking, beauty salon Mansfield appointment, salon location, contact details",
+  title: "Contact Victoria Rose Salon | Mansfield Woodhouse",
+  description: "Get in touch with Victoria Rose Salon in Mansfield Woodhouse. Book your hair or beauty appointment, find our location, or contact us for any inquiries. We're here to help!",
+  keywords: "Victoria Rose Salon contact, hair salon Mansfield Woodhouse booking, beauty salon Mansfield Woodhouse appointment, salon location Mansfield Woodhouse, contact details",
   openGraph: {
-    title: "Contact Victoria Rose Salon | Book Your Appointment",
-    description: "Get in touch with Victoria Rose Salon in Mansfield. Book your hair or beauty appointment, find our location, or contact us for any inquiries.",
+    title: "Contact Victoria Rose Salon | Mansfield Woodhouse",
+    description: "Get in touch with Victoria Rose Salon in Mansfield Woodhouse. Book your hair or beauty appointment, find our location, or contact us for any inquiries.",
     images: [
       {
         url: "/hero-bg.jpeg",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Contact Victoria Rose Salon | Book Your Appointment",
-    description: "Get in touch with Victoria Rose Salon in Mansfield. Book your hair or beauty appointment, find our location, or contact us for any inquiries.",
+    title: "Contact Victoria Rose Salon | Mansfield Woodhouse",
+    description: "Get in touch with Victoria Rose Salon in Mansfield Woodhouse. Book your hair or beauty appointment, find our location, or contact us for any inquiries.",
     images: ["/hero-bg.jpeg"],
   },
   alternates: {

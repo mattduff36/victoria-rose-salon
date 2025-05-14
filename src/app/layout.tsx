@@ -10,11 +10,33 @@ import StructuredData from "@/components/StructuredData";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Victoria Rose Salon",
-  description: "Professional Hair & Beauty Services in Mansfield",
+  title: "Victoria Rose Hair & Beauty Salon | Mansfield Woodhouse",
+  description: "Professional hair and beauty services in Mansfield Woodhouse, Nottinghamshire. Expert stylists offering cuts, color, styling, and beauty treatments. Book your appointment today!",
   metadataBase: new URL('https://victoria-rose-salon.vercel.app'),
   alternates: {
     canonical: '/',
+  },
+  openGraph: {
+    title: 'Victoria Rose Hair & Beauty Salon | Mansfield Woodhouse',
+    description: 'Professional hair and beauty services in Mansfield Woodhouse, Nottinghamshire. Expert stylists offering cuts, color, styling, and beauty treatments.',
+    url: 'https://victoria-rose-salon.vercel.app',
+    siteName: 'Victoria Rose Hair & Beauty Salon',
+    images: [
+      {
+        url: '/Logo.jpeg',
+        width: 1200,
+        height: 630,
+        alt: 'Victoria Rose Hair & Beauty Salon - Mansfield Woodhouse',
+      },
+    ],
+    locale: 'en_GB',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Victoria Rose Hair & Beauty Salon | Mansfield Woodhouse',
+    description: 'Professional hair and beauty services in Mansfield Woodhouse, Nottinghamshire. Expert stylists offering cuts, color, styling, and beauty treatments.',
+    images: ['/Logo.jpeg'],
   },
   robots: {
     index: true,
@@ -36,10 +58,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head>
-        <StructuredData />
-      </head>
       <body className={`${inter.className} bg-white`}>
+        <StructuredData />
         <Navbar />
         <main>{children}</main>
         <Footer />
