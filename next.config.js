@@ -4,9 +4,6 @@ const nextConfig = {
     domains: ['drive.google.com', 'lh3.googleusercontent.com'],
   },
   reactStrictMode: true,
-  experimental: {
-    middleware: false
-  },
   // Add cache control headers
   async headers() {
     return [
