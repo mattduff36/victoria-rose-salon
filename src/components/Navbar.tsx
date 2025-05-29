@@ -84,9 +84,7 @@ export default function Navbar() {
           </div>
           <div className="hidden sm:ml-6 sm:flex sm:items-center">
             <Link
-              href="https://www.fresha.com/a/victoria-rose-hair-and-beauty-salon-mansfield-woodhouse-25-dunsil-road-zehqr10n/all-offer?menu=true&pId=68802&rwg_token=AAiGsoYtsIq8DsbkAukp1_UAjvtdR2-CFw8OIjZLtDOnE93dSv-XanUBi8lMHl-tMd5f0uM_lrRUUFzO_xlJbcvmp30akDRuDQ%3D%3D&gei=-qkKaPTmN5m6hbIP3v-xoAg"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/#our-services"
               className="bg-[#31734D] hover:bg-[#285f3f] text-white px-4 py-2 rounded-full text-base font-medium transition-colors"
             >
               Book Online
@@ -185,10 +183,8 @@ export default function Navbar() {
           <div className="pt-4 pb-3 border-t border-gray-200">
             <div className="px-4">
               <Link
-                href="https://www.fresha.com/a/victoria-rose-hair-and-beauty-salon-mansfield-woodhouse-25-dunsil-road-zehqr10n/all-offer?menu=true&pId=68802&rwg_token=AAiGsoYtsIq8DsbkAukp1_UAjvtdR2-CFw8OIjZLtDOnE93dSv-XanUBi8lMHl-tMd5f0uM_lrRUUFzO_xlJbcvmp30akDRuDQ%3D%3D&gei=-qkKaPTmN5m6hbIP3v-xoAg"
+                href="/#our-services"
                 className="block w-full text-center bg-[#31734D] hover:bg-[#285f3f] text-white px-4 py-2 rounded-md text-base font-medium"
-                target="_blank"
-                rel="noopener noreferrer"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Book Online

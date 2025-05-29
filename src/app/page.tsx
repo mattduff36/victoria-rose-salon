@@ -63,7 +63,7 @@ export default function Home() {
       </div>
 
       {/* Services Preview Section */}
-      <section className="py-20 px-4">
+      <section id="our-services" className="py-20 px-4">
         <div className="max-w-7xl mx-auto">
           <AnimatedSection
             className="text-4xl font-bold text-center mb-12"
@@ -198,9 +198,7 @@ export default function Home() {
               whileTap={{ scale: 0.95 }}
             >
               <Link 
-                href="https://www.fresha.com/a/victoria-rose-hair-and-beauty-salon-mansfield-woodhouse-25-dunsil-road-zehqr10n/all-offer?menu=true&pId=68802&rwg_token=AAiGsoYtsIq8DsbkAukp1_UAjvtdR2-CFw8OIjZLtDOnE93dSv-XanUBi8lMHl-tMd5f0uM_lrRUUFzO_xlJbcvmp30akDRuDQ%3D%3D&gei=-qkKaPTmN5m6hbIP3v-xoAg"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="#our-services"
                 className="bg-[#31734D] hover:bg-[#285f3f] text-white font-bold py-3 px-8 rounded-full transition-colors inline-block"
               >
                 Book Your Appointment

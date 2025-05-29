@@ -70,10 +70,8 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="https://www.fresha.com/a/victoria-rose-hair-and-beauty-salon-mansfield-woodhouse-25-dunsil-road-zehqr10n/all-offer?menu=true&pId=68802&rwg_token=AAiGsoYtsIq8DsbkAukp1_UAjvtdR2-CFw8OIjZLtDOnE93dSv-XanUBi8lMHl-tMd5f0uM_lrRUUFzO_xlJbcvmp30akDRuDQ%3D%3D&gei=-qkKaPTmN5m6hbIP3v-xoAg"
+                  href="/#our-services"
                   className="hover:text-[#31734D] transition-colors"
-                  target="_blank"
-                  rel="noopener noreferrer"
                 >
                   Book Online
                 </Link>

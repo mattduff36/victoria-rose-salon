@@ -105,14 +105,12 @@ export default function Appointments() {
                 <li>✓ Receive appointment reminders</li>
                 <li>✓ Manage your bookings online</li>
               </ul>
-              <a 
-                href="https://www.fresha.com/a/victoria-rose-hair-and-beauty-salon-mansfield-woodhouse-25-dunsil-road-zehqr10n/all-offer?menu=true&pId=68802&rwg_token=AAiGsoYtsIq8DsbkAukp1_UAjvtdR2-CFw8OIjZLtDOnE93dSv-XanUBi8lMHl-tMd5f0uM_lrRUUFzO_xlJbcvmp30akDRuDQ%3D%3D&gei=-qkKaPTmN5m6hbIP3v-xoAg"
-                target="_blank"
-                rel="noopener noreferrer"
+              <Link 
+                href="/#our-services"
                 className="bg-white text-[#31734D] hover:bg-gray-100 font-bold py-3 px-8 rounded-full transition-colors inline-block"
               >
                 Book Online Now
-              </a>
+              </Link>
             </AnimatedSection>
           </div>
         </div>

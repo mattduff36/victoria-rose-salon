@@ -39,10 +39,10 @@ export default function ExpandableServiceSection({ subcategory, services, index 
       
       // Create URL parameters
       const params = new URLSearchParams({
-        allOffer: 'true',
         menu: 'true',
+        offerItems: `sv:${freshaId}`,
         pId: '68802',
-        offerItems: `sv:${freshaId}`
+        dppub: 'true'
       });
       
       // Combine base URL with parameters
