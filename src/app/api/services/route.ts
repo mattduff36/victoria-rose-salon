@@ -1,4 +1,4 @@
-import { getServices } from '@/lib/google-api';
+import { getServices } from '@/utils/services';
 import { NextResponse } from 'next/server';
 
 // Revalidate the cache every hour
