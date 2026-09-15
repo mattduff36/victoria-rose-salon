@@ -12,6 +12,16 @@ body {
   background: rgb(var(--background-rgb));
 }
 
+.admin-app ::selection {
+  background: #c5d9cc;
+  color: #1c241f;
+}
+
+.admin-app input,
+.admin-app textarea {
+  caret-color: #31734d;
+}
+
 /* Smooth scrolling */
 html {
   scroll-behavior: smooth;

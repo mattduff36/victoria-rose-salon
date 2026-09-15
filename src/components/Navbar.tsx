@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { useState } from 'react';
 
-export default function Navbar() {
+export default function Navbar({ logoSrc = '/Logo.jpeg' }: { logoSrc?: string }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isMoreOpen, setIsMoreOpen] = useState(false);
 
@@ -16,7 +16,7 @@ export default function Navbar() {
             <div className="flex-shrink-0 flex items-center">
               <Link href="/">
                 <Image
-                  src="/Logo.jpeg"
+                  src={logoSrc}
                   alt="Victoria Rose Salon"
                   width={150}
                   height={50}

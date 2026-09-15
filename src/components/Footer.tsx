@@ -2,8 +2,10 @@
 
 import Link from 'next/link';
 import { motion } from 'framer-motion';
+import type { SiteDetails } from '@/lib/content-types';
+import { formatHoursLine } from '@/lib/content-format';
 
-export default function Footer() {
+export default function Footer({ site }: { site: SiteDetails }) {
   return (
     <footer className="bg-gray-900 text-white py-12">
       <div className="max-w-7xl mx-auto px-4">
@@ -14,9 +16,18 @@ export default function Footer() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            <h3 className="text-xl font-bold mb-4">Victoria Rose Salon</h3>
-            <p>25 Dunsil Road, Mansfield Woodhouse,<br />Nottinghamshire, NG19 7GD</p>
-            <p className="mt-2">01623 624119</p>
+            <h3 className="text-xl font-bold mb-4">{site.name}</h3>
+            <p>
+              {site.addressLines[0]}
+              {site.addressLines[1] ? `, ${site.addressLines[1]}` : ''}
+              <br />
+              {site.addressLines.slice(2).join(', ')}
+            </p>
+            <p className="mt-2">
+              <a href={site.phoneHref} className="hover:text-[#31734D] transition-colors">
+                {site.phone}
+              </a>
+            </p>
           </motion.div>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -26,13 +37,9 @@ export default function Footer() {
           >
             <h3 className="text-xl font-bold mb-4">Opening Hours</h3>
             <ul className="space-y-2">
-              <li>Monday: Closed</li>
-              <li>Tuesday: 09:00 – 17:00</li>
-              <li>Wednesday: 09:00 – 17:00</li>
-              <li>Thursday: 09:00 – 19:00</li>
-              <li>Friday: 09:00 – 19:00</li>
-              <li>Saturday: 08:30 – 16:00</li>
-              <li>Sunday: Closed</li>
+              {site.hours.map((entry) => (
+                <li key={entry.day}>{formatHoursLine(entry)}</li>
+              ))}
             </ul>
           </motion.div>
           <motion.div
@@ -69,10 +76,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link
-                  href="/#our-services"
-                  className="hover:text-[#31734D] transition-colors"
-                >
+                <Link href="/#our-services" className="hover:text-[#31734D] transition-colors">
                   Book Online
                 </Link>
               </li>
@@ -86,7 +90,13 @@ export default function Footer() {
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.6 }}
         >
-          <p className="mb-2">Website developed by <Link href="https://mpdee.co.uk" target="_blank" rel="noopener noreferrer" className="hover:text-[#31734D] transition-colors">mpdee.co.uk</Link> © 2025. All rights reserved.</p>
+          <p className="mb-2">
+            Website developed by{' '}
+            <Link href="https://mpdee.co.uk" target="_blank" rel="noopener noreferrer" className="hover:text-[#31734D] transition-colors">
+              mpdee.co.uk
+            </Link>{' '}
+            © {new Date().getFullYear()}. All rights reserved.
+          </p>
           <Link href="/privacy" className="text-gray-400 hover:text-white text-sm">
             Privacy Policy
           </Link>
@@ -94,4 +104,4 @@ export default function Footer() {
       </div>
     </footer>
   );
-} 
+}

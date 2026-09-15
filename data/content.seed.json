@@ -1,0 +1,1883 @@
+{
+  "version": 1,
+  "updatedAt": "2026-09-15T14:04:08.728Z",
+  "site": {
+    "name": "Victoria Rose Salon",
+    "addressLines": [
+      "25 Dunsil Road",
+      "Mansfield Woodhouse",
+      "Nottinghamshire",
+      "NG19 7GD"
+    ],
+    "phone": "01623 624119",
+    "phoneHref": "tel:01623624119",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2394.1234567890123!2d-1.2062833!3d53.1675146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTPCsDEwJzAzLjAiTiAxwrAxMicyMi42Ilc!5e0!3m2!1sen!2suk!4v1234567890",
+    "hours": [
+      {
+        "day": "monday",
+        "label": "Monday",
+        "open": "",
+        "close": "",
+        "closed": true
+      },
+      {
+        "day": "tuesday",
+        "label": "Tuesday",
+        "open": "09:00",
+        "close": "17:00",
+        "closed": false
+      },
+      {
+        "day": "wednesday",
+        "label": "Wednesday",
+        "open": "09:00",
+        "close": "17:00",
+        "closed": false
+      },
+      {
+        "day": "thursday",
+        "label": "Thursday",
+        "open": "09:00",
+        "close": "19:00",
+        "closed": false
+      },
+      {
+        "day": "friday",
+        "label": "Friday",
+        "open": "09:00",
+        "close": "19:00",
+        "closed": false
+      },
+      {
+        "day": "saturday",
+        "label": "Saturday",
+        "open": "08:30",
+        "close": "16:00",
+        "closed": false
+      },
+      {
+        "day": "sunday",
+        "label": "Sunday",
+        "open": "",
+        "close": "",
+        "closed": true
+      }
+    ]
+  },
+  "media": {
+    "hero": "/hero-bg.jpeg",
+    "about": "/about-us.jpg",
+    "hairInterior": "/hair_interior.jpg",
+    "beautyInterior": "/beauty_interior.jpg",
+    "exterior": "/exterior.jpg",
+    "logo": "/Logo.jpeg"
+  },
+  "team": [
+    {
+      "id": "8DEycVC-MJDv4gotejvDQ",
+      "name": "Beth Huskinson",
+      "role": "Stylist",
+      "imageUrl": "https://res.cloudinary.com/dmvaawjnx/image/upload/v1789481038/victoria-rose/team/beth-huskinson.jpg",
+      "imagePublicId": "victoria-rose/team/beth-huskinson",
+      "sortOrder": 0,
+      "isOwner": false
+    },
+    {
+      "id": "T_jdhXj22TMQEzopR39Qr",
+      "name": "Carrie Healey",
+      "role": "Salon Owner and Beautician",
+      "imageUrl": "https://res.cloudinary.com/dmvaawjnx/image/upload/v1789481039/victoria-rose/team/carrie-healey.jpg",
+      "imagePublicId": "victoria-rose/team/carrie-healey",
+      "sortOrder": 1,
+      "isOwner": true
+    },
+    {
+      "id": "l32ZgQmsqJ0JYjeKiE6qg",
+      "name": "Catherine Pinkett",
+      "role": "Reiki Master, Seichem & Cartouche Energy Practitioner",
+      "imageUrl": "https://res.cloudinary.com/dmvaawjnx/image/upload/v1789481040/victoria-rose/team/catherine-pinkett.jpg",
+      "imagePublicId": "victoria-rose/team/catherine-pinkett",
+      "sortOrder": 2,
+      "isOwner": false
+    },
+    {
+      "id": "ZbssHteH4zu1tCyEcXx8k",
+      "name": "Evie Wilson",
+      "role": "Beauty Therapist",
+      "imageUrl": "https://res.cloudinary.com/dmvaawjnx/image/upload/v1789481041/victoria-rose/team/evie-wilson.jpg",
+      "imagePublicId": "victoria-rose/team/evie-wilson",
+      "sortOrder": 3,
+      "isOwner": false
+    },
+    {
+      "id": "km6LIcN40BgNA_KQw5EZ0",
+      "name": "Georgia McGrath",
+      "role": "Stylist",
+      "imageUrl": "https://res.cloudinary.com/dmvaawjnx/image/upload/v1789481042/victoria-rose/team/georgia-mcgrath.jpg",
+      "imagePublicId": "victoria-rose/team/georgia-mcgrath",
+      "sortOrder": 4,
+      "isOwner": false
+    },
+    {
+      "id": "nzYekkTfl3sUdSjWYKcgm",
+      "name": "Lilla Herli",
+      "role": "Holistic & Beauty Therapist",
+      "imageUrl": "https://res.cloudinary.com/dmvaawjnx/image/upload/v1789481042/victoria-rose/team/lilla-herli.jpg",
+      "imagePublicId": "victoria-rose/team/lilla-herli",
+      "sortOrder": 5,
+      "isOwner": false
+    },
+    {
+      "id": "GhvBSfCAQcp8-dVn40Sy2",
+      "name": "Lynn Allen",
+      "role": "Stylist",
+      "imageUrl": "https://res.cloudinary.com/dmvaawjnx/image/upload/v1789481043/victoria-rose/team/lynn-allen.jpg",
+      "imagePublicId": "victoria-rose/team/lynn-allen",
+      "sortOrder": 6,
+      "isOwner": false
+    },
+    {
+      "id": "cxzLbr_ti16qacatMST7R",
+      "name": "Maddi Heckingbottom",
+      "role": "Brow and Lash Technician",
+      "imageUrl": "https://res.cloudinary.com/dmvaawjnx/image/upload/v1789481044/victoria-rose/team/maddi-heckingbottom.jpg",
+      "imagePublicId": "victoria-rose/team/maddi-heckingbottom",
+      "sortOrder": 7,
+      "isOwner": false
+    },
+    {
+      "id": "8Kh_Q_RWdfnJCY0OQ0Htu",
+      "name": "Mica Griffiths",
+      "role": "Aesthetic Practitioner",
+      "imageUrl": "https://res.cloudinary.com/dmvaawjnx/image/upload/v1789481046/victoria-rose/team/mica-griffiths.jpg",
+      "imagePublicId": "victoria-rose/team/mica-griffiths",
+      "sortOrder": 8,
+      "isOwner": false
+    },
+    {
+      "id": "H70LIkWNNWtI1lCeZwSU_",
+      "name": "Nikki Boam",
+      "role": "Nail Technician",
+      "imageUrl": "https://res.cloudinary.com/dmvaawjnx/image/upload/v1789481046/victoria-rose/team/nikki-boam.jpg",
+      "imagePublicId": "victoria-rose/team/nikki-boam",
+      "sortOrder": 9,
+      "isOwner": false
+    },
+    {
+      "id": "eFsR44tWqJACMlZ0-IpzB",
+      "name": "Rachael Clayton",
+      "role": "Stylist",
+      "imageUrl": "https://res.cloudinary.com/dmvaawjnx/image/upload/v1789481047/victoria-rose/team/rachael-clayton.jpg",
+      "imagePublicId": "victoria-rose/team/rachael-clayton",
+      "sortOrder": 10,
+      "isOwner": false
+    },
+    {
+      "id": "7ShTfoQb4ENoBQJjmKwzi",
+      "name": "Victoria Clark",
+      "role": "Salon Owner and Stylist",
+      "imageUrl": "https://res.cloudinary.com/dmvaawjnx/image/upload/v1789481047/victoria-rose/team/victoria-clark.jpg",
+      "imagePublicId": "victoria-rose/team/victoria-clark",
+      "sortOrder": 11,
+      "isOwner": true
+    }
+  ],
+  "services": [
+    {
+      "id": "Yr0KgZlVcARxDxpxWgbRG",
+      "name": "Root Colour, Cut and Blow Dry",
+      "description": "",
+      "price": "£53.50",
+      "duration": "105",
+      "category": "hair",
+      "subcategory": "Colours and Highlights",
+      "bookable": false,
+      "sortOrder": 0
+    },
+    {
+      "id": "1fX8MGN6UphEGu3WAOTBu",
+      "name": "Root Melt and Toner",
+      "description": "",
+      "price": "£70",
+      "duration": "120",
+      "category": "hair",
+      "subcategory": "Colours and Highlights",
+      "bookable": false,
+      "sortOrder": 1
+    },
+    {
+      "id": "15H3ykg2zzXNzxYwQVrkd",
+      "name": "Ladies Wet Cut",
+      "description": "A wash and trim, no restyle or blowdry included.",
+      "price": "£24.50",
+      "duration": "30",
+      "category": "hair",
+      "subcategory": "Cuts and Trims",
+      "freshaId": "1041224",
+      "bookable": true,
+      "sortOrder": 2
+    },
+    {
+      "id": "vJSTbJQc9SIfbOkr-t1Pt",
+      "name": "Ladies Dry Cut",
+      "description": "Hair must be washed 24 hours prior. No restyle or blowdry included.",
+      "price": "£20.00",
+      "duration": "30",
+      "category": "hair",
+      "subcategory": "Cuts and Trims",
+      "freshaId": "1041146",
+      "bookable": true,
+      "sortOrder": 3
+    },
+    {
+      "id": "XD1WAn_xcmbGrRCZiqh77",
+      "name": "Ladies Cut and Straighten",
+      "description": "A dry cut with hair being straightened with hair straighteners. No restyle included.",
+      "price": "£26.00",
+      "duration": "30",
+      "category": "hair",
+      "subcategory": "Cuts and Trims",
+      "freshaId": "1041228",
+      "bookable": true,
+      "sortOrder": 4
+    },
+    {
+      "id": "khBvYvHq5GGgMeH04y3ka",
+      "name": "Ladies Cut and Blow Dry",
+      "description": "A trim and a blowdry. No restyle included.",
+      "price": "£33.50",
+      "duration": "45",
+      "category": "hair",
+      "subcategory": "Cuts and Trims",
+      "freshaId": "1041233",
+      "bookable": true,
+      "sortOrder": 5
+    },
+    {
+      "id": "UyCBrW-Z06CdaKrEAfPoa",
+      "name": "Ladies Cut Blow Dry and Restyle",
+      "description": "",
+      "price": "£46.50",
+      "duration": "60",
+      "category": "hair",
+      "subcategory": "Cuts and Trims",
+      "freshaId": "13124254",
+      "bookable": true,
+      "sortOrder": 6
+    },
+    {
+      "id": "0Rgh472mqOexm6Sl5gKw_",
+      "name": "Deluxe Cut and Blow Dry",
+      "description": "Cut and blow dry with a conditioning treatment. No restyle included.",
+      "price": "£39.50",
+      "duration": "60",
+      "category": "hair",
+      "subcategory": "Cuts and Trims",
+      "freshaId": "1923363",
+      "bookable": true,
+      "sortOrder": 7
+    },
+    {
+      "id": "uRy74eEXBoWJJE2oUr3jp",
+      "name": "Restyle",
+      "description": "Add on to a cutting service.",
+      "price": "£13.00",
+      "duration": "15",
+      "category": "hair",
+      "subcategory": "Cuts and Trims",
+      "bookable": false,
+      "sortOrder": 8
+    },
+    {
+      "id": "Zmk-Ghez7c5VDjYnXM9Wr",
+      "name": "Gent's Cut",
+      "description": "",
+      "price": "£18.00",
+      "duration": "15",
+      "category": "hair",
+      "subcategory": "Cuts and Trims",
+      "freshaId": "1041236",
+      "bookable": true,
+      "sortOrder": 9
+    },
+    {
+      "id": "-BGzbcI_FEEX4WicfuHvL",
+      "name": "Child's Cut (aged 0-5)",
+      "description": "",
+      "price": "£9.00",
+      "duration": "15",
+      "category": "hair",
+      "subcategory": "Cuts and Trims",
+      "freshaId": "1041238",
+      "bookable": true,
+      "sortOrder": 10
+    },
+    {
+      "id": "VmqWVwBcsB-FDiko1jkRA",
+      "name": "Child's Cut (aged 6-10)",
+      "description": "",
+      "price": "£11.00",
+      "duration": "15",
+      "category": "hair",
+      "subcategory": "Cuts and Trims",
+      "freshaId": "1041241",
+      "bookable": true,
+      "sortOrder": 11
+    },
+    {
+      "id": "LKzdt8T7s4DohaKeWGdJ4",
+      "name": "Full Head Colour",
+      "description": "Includes cut and blow dry.",
+      "price": "£64.50",
+      "duration": "120",
+      "category": "hair",
+      "subcategory": "Colours and Highlights",
+      "bookable": false,
+      "sortOrder": 12
+    },
+    {
+      "id": "m4nMxVTHz5JQXcBEjSKse",
+      "name": "Full Head Highlights",
+      "description": "Includes cut and blow dry.",
+      "price": "£95.00",
+      "duration": "105",
+      "category": "hair",
+      "subcategory": "Colours and Highlights",
+      "bookable": false,
+      "sortOrder": 13
+    },
+    {
+      "id": "hQUNRzHnfHbQDYOlC08wu",
+      "name": "Half Head Highlights",
+      "description": "Includes cut and blow dry.",
+      "price": "£78.00",
+      "duration": "90",
+      "category": "hair",
+      "subcategory": "Colours and Highlights",
+      "bookable": false,
+      "sortOrder": 14
+    },
+    {
+      "id": "hMxPUmFeXUV7AneUPmkjK",
+      "name": "Full Head Colour and Highlights",
+      "description": "Includes cut and blow dry.",
+      "price": "£108.00",
+      "duration": "",
+      "category": "hair",
+      "subcategory": "Colours and Highlights",
+      "bookable": false,
+      "sortOrder": 15
+    },
+    {
+      "id": "iJMaTYqib7E0ZCyEyoZAC",
+      "name": "Back to Back Foils",
+      "description": "Includes toner, vitaplex, cut and blow dry.",
+      "price": "From £200",
+      "duration": "120",
+      "category": "hair",
+      "subcategory": "Colours and Highlights",
+      "bookable": false,
+      "sortOrder": 16
+    },
+    {
+      "id": "EwS95nsEcW1-95Zx53pvc",
+      "name": "Basic Toner",
+      "description": "",
+      "price": "£19.00",
+      "duration": "",
+      "category": "hair",
+      "subcategory": "Colours and Highlights",
+      "bookable": false,
+      "sortOrder": 17
+    },
+    {
+      "id": "P3MqmP1ojn09Lrrq9Oi3E",
+      "name": "Balayage",
+      "description": "Includes toner, cut and blowdry",
+      "price": "From £121.50",
+      "duration": "",
+      "category": "hair",
+      "subcategory": "Colours and Highlights",
+      "bookable": false,
+      "sortOrder": 18
+    },
+    {
+      "id": "PcUmwTlhOE1Q6Zr6rtfQm",
+      "name": "Scalp Bleach",
+      "description": "Includes cut and blowdry",
+      "price": "£75.00",
+      "duration": "",
+      "category": "hair",
+      "subcategory": "Colours and Highlights",
+      "bookable": false,
+      "sortOrder": 19
+    },
+    {
+      "id": "psxQXNvghCz-H4KsrYMLz",
+      "name": "Colour Strip/Correction",
+      "description": "Includes cut and blowdry",
+      "price": "Price on consultation",
+      "duration": "",
+      "category": "hair",
+      "subcategory": "Colours and Highlights",
+      "bookable": false,
+      "sortOrder": 20
+    },
+    {
+      "id": "qmVtC8SdvMzYOx_OVlP_5",
+      "name": "Hair Colour Consultation and Patch Test",
+      "description": "Colour consultation and patch test required for any new client for colour services.",
+      "price": "£5",
+      "duration": "15",
+      "category": "hair",
+      "subcategory": "Colours and Highlights",
+      "freshaId": "1042114",
+      "bookable": true,
+      "sortOrder": 21
+    },
+    {
+      "id": "rMdrTOf8947U4wfVAJv-4",
+      "name": "Hair Extension Consultation",
+      "description": "",
+      "price": "£5",
+      "duration": "30",
+      "category": "hair",
+      "subcategory": "Specialist Treatments",
+      "freshaId": "1042108",
+      "bookable": true,
+      "sortOrder": 22
+    },
+    {
+      "id": "VIU9MoX20rtQkeYNFEJOO",
+      "name": "Straightening",
+      "description": "",
+      "price": "£12.50",
+      "duration": "30",
+      "category": "hair",
+      "subcategory": "Occasional Hair",
+      "freshaId": "1041280",
+      "bookable": true,
+      "sortOrder": 23
+    },
+    {
+      "id": "I7zIPrq3E44vnlEABX_U8",
+      "name": "Curly Blow Dry",
+      "description": "",
+      "price": "£28.50",
+      "duration": "",
+      "category": "hair",
+      "subcategory": "Occasional Hair",
+      "bookable": false,
+      "sortOrder": 24
+    },
+    {
+      "id": "pb7Quv5B-VcaAjxA6-OL_",
+      "name": "Blow Dry on Extensions/Long Hair",
+      "description": "",
+      "price": "From £28.50",
+      "duration": "",
+      "category": "hair",
+      "subcategory": "Occasional Hair",
+      "bookable": false,
+      "sortOrder": 25
+    },
+    {
+      "id": "wMSKfwkpa5iP6L6JT8ULT",
+      "name": "Curly Blow Dry on Extensions",
+      "description": "Pins to hold +£5.",
+      "price": "£33.50",
+      "duration": "",
+      "category": "hair",
+      "subcategory": "Occasional Hair",
+      "bookable": false,
+      "sortOrder": 26
+    },
+    {
+      "id": "GoKBL0FYkacrnuBeTSAm9",
+      "name": "Curls",
+      "description": "Curls on dry hair, no wash included.",
+      "price": "£23.50",
+      "duration": "30",
+      "category": "hair",
+      "subcategory": "Occasional Hair",
+      "freshaId": "1041273",
+      "bookable": true,
+      "sortOrder": 27
+    },
+    {
+      "id": "fHyDIzK24y27oiFy7b48O",
+      "name": "Wash and Blow Dry",
+      "description": "A wash, blow dry and style. No trim included.",
+      "price": "£20.50",
+      "duration": "45",
+      "category": "hair",
+      "subcategory": "Occasional Hair",
+      "freshaId": "1041243",
+      "bookable": true,
+      "sortOrder": 28
+    },
+    {
+      "id": "DOuAQxpppSfmEU8wRUW2F",
+      "name": "Gel Polish Overlay",
+      "description": "",
+      "price": "£31.00",
+      "duration": "60",
+      "category": "beauty",
+      "subcategory": "Nails",
+      "freshaId": "1042433",
+      "bookable": true,
+      "sortOrder": 29
+    },
+    {
+      "id": "NdZhWJ2fOhMGcFaV2t27V",
+      "name": "French Gel Polish Overlay",
+      "description": "",
+      "price": "£38.00",
+      "duration": "60",
+      "category": "beauty",
+      "subcategory": "Nails",
+      "freshaId": "1708786",
+      "bookable": true,
+      "sortOrder": 30
+    },
+    {
+      "id": "aOduvLbHGcDQFLJWGxnnD",
+      "name": "Builder Gel Overlay (short/medium)",
+      "description": "",
+      "price": "£38.00",
+      "duration": "60",
+      "category": "beauty",
+      "subcategory": "Nails",
+      "freshaId": "1708484",
+      "bookable": true,
+      "sortOrder": 31
+    },
+    {
+      "id": "gX4Gdw-LUMHNURyaJfAMF",
+      "name": "Builder Gel Overlay (medium/long)",
+      "description": "",
+      "price": "£42.00",
+      "duration": "75",
+      "category": "beauty",
+      "subcategory": "Nails",
+      "freshaId": "22497309",
+      "bookable": true,
+      "sortOrder": 32
+    },
+    {
+      "id": "dFl04E7wcXwUDgC1l_HSs",
+      "name": "Builder Gel with Gel Polish (short/medium)",
+      "description": "",
+      "price": "£44.00",
+      "duration": "105",
+      "category": "beauty",
+      "subcategory": "Nails",
+      "freshaId": "1708489",
+      "bookable": true,
+      "sortOrder": 33
+    },
+    {
+      "id": "hcaY2svXTHZV5Ql4TyboH",
+      "name": "Builder Gel with Gel Polish (medium/long)",
+      "description": "",
+      "price": "£49.00",
+      "duration": "90",
+      "category": "beauty",
+      "subcategory": "Nails",
+      "freshaId": "22497368",
+      "bookable": true,
+      "sortOrder": 34
+    },
+    {
+      "id": "18x8o_iE0p4IPxt_ZPGfU",
+      "name": "French Builder Gel (short/medium)",
+      "description": "",
+      "price": "£45.00",
+      "duration": "90",
+      "category": "beauty",
+      "subcategory": "Nails",
+      "freshaId": "10563408",
+      "bookable": true,
+      "sortOrder": 35
+    },
+    {
+      "id": "XzS8O0vBIad2bJDCHdfAP",
+      "name": "French Builder Gel Overlay (medium/long)",
+      "description": "",
+      "price": "£50.00",
+      "duration": "105",
+      "category": "beauty",
+      "subcategory": "Nails",
+      "freshaId": "22795133",
+      "bookable": true,
+      "sortOrder": 36
+    },
+    {
+      "id": "IaTnDh3liuXqnN3Fcd9WY",
+      "name": "Hard Gel Nail Extensions with Gel Polish (short/medium)",
+      "description": "",
+      "price": "From £52",
+      "duration": "135",
+      "category": "beauty",
+      "subcategory": "Nails",
+      "freshaId": "1042464",
+      "bookable": true,
+      "sortOrder": 37
+    },
+    {
+      "id": "oKjAVaOiCQUcdjO6-i1Qi",
+      "name": "Hard Gel Nail Extensions with Gel Polish (medium/long)",
+      "description": "",
+      "price": "From £57",
+      "duration": "135",
+      "category": "beauty",
+      "subcategory": "Nails",
+      "freshaId": "22498008",
+      "bookable": true,
+      "sortOrder": 38
+    },
+    {
+      "id": "tBGj_YylVFJnIGX-R4Hz3",
+      "name": "Hard Gel Infill Incl Gel Polish - short/medium (up to 4 weeks)",
+      "description": "",
+      "price": "From £47",
+      "duration": "105",
+      "category": "beauty",
+      "subcategory": "Nails",
+      "freshaId": "5343592",
+      "bookable": true,
+      "sortOrder": 39
+    },
+    {
+      "id": "xod5nuGiAJUZwUmtV1vGv",
+      "name": "Hard Gel Infill with Gel Polish -medium/long (up to 4 weeks)",
+      "description": "",
+      "price": "From £52",
+      "duration": "105",
+      "category": "beauty",
+      "subcategory": "Nails",
+      "freshaId": "22498408",
+      "bookable": true,
+      "sortOrder": 40
+    },
+    {
+      "id": "fgcq-KvxXCFkuHuauiGac",
+      "name": "Hard Gel Nail Overlays with Gel Polish (short/medium)",
+      "description": "",
+      "price": "£47.00",
+      "duration": "105",
+      "category": "beauty",
+      "subcategory": "Nails",
+      "freshaId": "1042479",
+      "bookable": true,
+      "sortOrder": 41
+    },
+    {
+      "id": "CVStVUjWUFwXu-AyOy_eB",
+      "name": "Hard Gel Overlay with Gel Polish (medium/long)",
+      "description": "",
+      "price": "£52.00",
+      "duration": "105",
+      "category": "beauty",
+      "subcategory": "Nails",
+      "freshaId": "22497440",
+      "bookable": true,
+      "sortOrder": 42
+    },
+    {
+      "id": "m74A31-3FdHlhHlY1qRPv",
+      "name": "Clear/Nude Hard Gel Nail Overlays (short/medium)",
+      "description": "",
+      "price": "£41.00",
+      "duration": "90",
+      "category": "beauty",
+      "subcategory": "Nails",
+      "freshaId": "1042472",
+      "bookable": true,
+      "sortOrder": 43
+    },
+    {
+      "id": "2F9xym4biEO3vaetDt5Tc",
+      "name": "Clear/Nude Hard Gel Overlay (medium/long)",
+      "description": "",
+      "price": "£47.00",
+      "duration": "90",
+      "category": "beauty",
+      "subcategory": "Nails",
+      "freshaId": "22497410",
+      "bookable": true,
+      "sortOrder": 44
+    },
+    {
+      "id": "3mNwIDffjibZvNq7nvLLi",
+      "name": "Long length (additional charge)",
+      "description": "For nails that are longer in length - (medium/long)",
+      "price": "£5",
+      "duration": "15",
+      "category": "beauty",
+      "subcategory": "Nails",
+      "freshaId": "15307308",
+      "bookable": true,
+      "sortOrder": 45
+    },
+    {
+      "id": "MLvyWPBPv8oD5jerY3Rlh",
+      "name": "Nail repair (within service)",
+      "description": "Per nail",
+      "price": "From £6",
+      "duration": "30",
+      "category": "beauty",
+      "subcategory": "Nails",
+      "freshaId": "1042486",
+      "bookable": true,
+      "sortOrder": 46
+    },
+    {
+      "id": "OfzwKNP12u58sEsNN2sVx",
+      "name": "Nail repair ( single service)",
+      "description": "Per nail",
+      "price": "From £8",
+      "duration": "30",
+      "category": "beauty",
+      "subcategory": "Nails",
+      "freshaId": "22794530",
+      "bookable": true,
+      "sortOrder": 47
+    },
+    {
+      "id": "B1CB38AUN_pQUtE3pLWIz",
+      "name": "Acrylic removal",
+      "description": "",
+      "price": "From £20",
+      "duration": "45",
+      "category": "beauty",
+      "subcategory": "Nails",
+      "freshaId": "3180390",
+      "bookable": true,
+      "sortOrder": 48
+    },
+    {
+      "id": "-iTsHYZJ_08Fxg2iaVXMz",
+      "name": "Gel Polish removal",
+      "description": "Free if gel has been applied at Victoria Rose and reapplied at same appointment.",
+      "price": "£13.00",
+      "duration": "30",
+      "category": "beauty",
+      "subcategory": "Nails",
+      "freshaId": "1042447",
+      "bookable": true,
+      "sortOrder": 49
+    },
+    {
+      "id": "u3PQJoqTDx_OQoBX7_O2K",
+      "name": "Builder Gel removal",
+      "description": "",
+      "price": "£18.00",
+      "duration": "45",
+      "category": "beauty",
+      "subcategory": "Nails",
+      "freshaId": "9612123",
+      "bookable": true,
+      "sortOrder": 50
+    },
+    {
+      "id": "cgIoLe-9mMqunSm3khjDm",
+      "name": "Hard Gel removal",
+      "description": "",
+      "price": "From £18",
+      "duration": "45",
+      "category": "beauty",
+      "subcategory": "Nails",
+      "freshaId": "9612118",
+      "bookable": true,
+      "sortOrder": 51
+    },
+    {
+      "id": "G4sC6XFbrzoMIW8h23IoA",
+      "name": "Nail art: Simple",
+      "description": "Glitter, Foils, Stickers, Stamping, Chrome, Simple Patterns",
+      "price": "£6.00",
+      "duration": "15",
+      "category": "beauty",
+      "subcategory": "Nails",
+      "freshaId": "1042505",
+      "bookable": true,
+      "sortOrder": 52
+    },
+    {
+      "id": "7FpEk68sIKRhbGm8-42bm",
+      "name": "Nail art: Detailed",
+      "description": "Marble, Swirls, Animal Prints, Linework, Florals, Abstract, Geometric",
+      "price": "£12.00",
+      "duration": "30",
+      "category": "beauty",
+      "subcategory": "Nails",
+      "freshaId": "26946530",
+      "bookable": true,
+      "sortOrder": 53
+    },
+    {
+      "id": "TqCrKMOXe_v9yyK4fotjI",
+      "name": "Nail art: Mega",
+      "description": "Intricate Art such as Characters, Themed Nails, Hand Painted Art on every nail, Encapsulation, 3D",
+      "price": "£18.00",
+      "duration": "45",
+      "category": "beauty",
+      "subcategory": "Nails",
+      "freshaId": "26946563",
+      "bookable": true,
+      "sortOrder": 54
+    },
+    {
+      "id": "xmiqxuGYPqDUOk5o-331G",
+      "name": "Gel Polish on Toes",
+      "description": "",
+      "price": "£30.00",
+      "duration": "45",
+      "category": "beauty",
+      "subcategory": "Pedicure",
+      "freshaId": "9647954",
+      "bookable": true,
+      "sortOrder": 55
+    },
+    {
+      "id": "EJFTr93Bq3A9PP0E71Kep",
+      "name": "French Gel Toes",
+      "description": "",
+      "price": "£36.00",
+      "duration": "60",
+      "category": "beauty",
+      "subcategory": "Pedicure",
+      "freshaId": "17160752",
+      "bookable": true,
+      "sortOrder": 56
+    },
+    {
+      "id": "vFGCpF0ZwJCLWPpqZKGxu",
+      "name": "Full Pedicure",
+      "description": "Works on your cuticles, foot & leg exfoliation, hard skin removal and massage with a nail tidy.",
+      "price": "£37.00",
+      "duration": "45",
+      "category": "beauty",
+      "subcategory": "Pedicure",
+      "freshaId": "1042386",
+      "bookable": true,
+      "sortOrder": 57
+    },
+    {
+      "id": "YMRMw9-mAg2AGIGeErD_z",
+      "name": "Full Pedicure with Gel Toes",
+      "description": "Works on your cuticles, foot & leg exfoliation, hard skin removal and massage with a file & gel polish.",
+      "price": "£47.00",
+      "duration": "90",
+      "category": "beauty",
+      "subcategory": "Pedicure",
+      "freshaId": "5343607",
+      "bookable": true,
+      "sortOrder": 58
+    },
+    {
+      "id": "PBGMBrJZw4Iv5SyNAPlUK",
+      "name": "Callus Peel (heels only)",
+      "description": "Luxury spa foot treatment that removes hard, callused skin leaving your feet feeling soft and revitalised.",
+      "price": "£37.00",
+      "duration": "30",
+      "category": "beauty",
+      "subcategory": "Pedicure",
+      "bookable": true,
+      "sortOrder": 59
+    },
+    {
+      "id": "iEg2QwtNqpPxDweVUqsNr",
+      "name": "Callus Peel (heels and balls of feet)",
+      "description": "Luxury spa foot treatment that removes hard, callused skin leaving your feet feeling soft and revitalised.",
+      "price": "£42.00",
+      "duration": "45",
+      "category": "beauty",
+      "subcategory": "Pedicure",
+      "freshaId": "1226536",
+      "bookable": true,
+      "sortOrder": 60
+    },
+    {
+      "id": "B-Db8dFS2_upk7M5LBwpQ",
+      "name": "Callus Peel with Gel Toes",
+      "description": "Luxury spa foot treatment that removes hard, callused skin leaving your feet feeling soft and revitalised. Add gel polish to your toes for summer ready feet.",
+      "price": "£57.00",
+      "duration": "75",
+      "category": "beauty",
+      "subcategory": "Pedicure",
+      "freshaId": "55671",
+      "bookable": true,
+      "sortOrder": 61
+    },
+    {
+      "id": "o5dufV1rWzpGHHWFpu-YY",
+      "name": "Eyebrow Wax/Thread & Tint",
+      "description": "",
+      "price": "£23.00",
+      "duration": "15",
+      "category": "beauty",
+      "subcategory": "Facial Wax/Threading",
+      "freshaId": "62104",
+      "bookable": true,
+      "sortOrder": 62
+    },
+    {
+      "id": "0jt4UMXsiCDdi7uCOp7oW",
+      "name": "Eyebrow Wax",
+      "description": "",
+      "price": "£11.50",
+      "duration": "15",
+      "category": "beauty",
+      "subcategory": "Facial Wax/Threading",
+      "freshaId": "1031834",
+      "bookable": true,
+      "sortOrder": 63
+    },
+    {
+      "id": "EY9LVZtUPKwI36526RX3a",
+      "name": "Eyebrow Thread",
+      "description": "",
+      "price": "£11.50",
+      "duration": "15",
+      "category": "beauty",
+      "subcategory": "Facial Wax/Threading",
+      "freshaId": "1032026",
+      "bookable": true,
+      "sortOrder": 64
+    },
+    {
+      "id": "ZJxk8VmjTRodKtfnJ_BP1",
+      "name": "Top Lip Wax",
+      "description": "",
+      "price": "£10.50",
+      "duration": "15",
+      "category": "beauty",
+      "subcategory": "Facial Wax/Threading",
+      "freshaId": "1032020",
+      "bookable": true,
+      "sortOrder": 65
+    },
+    {
+      "id": "8ihDWVoVJCWgTlowYUzD0",
+      "name": "Top Lip Thread",
+      "description": "",
+      "price": "£10.50",
+      "duration": "15",
+      "category": "beauty",
+      "subcategory": "Facial Wax/Threading",
+      "freshaId": "1032038",
+      "bookable": true,
+      "sortOrder": 66
+    },
+    {
+      "id": "CPf3_V3D1PSKgyf9tlP4K",
+      "name": "Chin Thread",
+      "description": "",
+      "price": "£10.50",
+      "duration": "15",
+      "category": "beauty",
+      "subcategory": "Facial Wax/Threading",
+      "freshaId": "1042139",
+      "bookable": true,
+      "sortOrder": 67
+    },
+    {
+      "id": "abi54vk-xa0xtGyPiq0Yv",
+      "name": "Chin Wax",
+      "description": "",
+      "price": "£10.50",
+      "duration": "15",
+      "category": "beauty",
+      "subcategory": "Facial Wax/Threading",
+      "freshaId": "1042136",
+      "bookable": true,
+      "sortOrder": 68
+    },
+    {
+      "id": "omyPYSthuPZCqMrQxqZFP",
+      "name": "Sides of Face Thread",
+      "description": "",
+      "price": "£13.50",
+      "duration": "15",
+      "category": "beauty",
+      "subcategory": "Facial Wax/Threading",
+      "freshaId": "1042149",
+      "bookable": true,
+      "sortOrder": 69
+    },
+    {
+      "id": "KUjOZuOtbLT568BZ_cuWe",
+      "name": "Full Face Thread",
+      "description": "",
+      "price": "£31.50",
+      "duration": "45",
+      "category": "beauty",
+      "subcategory": "Facial Wax/Threading",
+      "freshaId": "1767026",
+      "bookable": true,
+      "sortOrder": 70
+    },
+    {
+      "id": "yl6MH7dmFB5tsMyRt-neL",
+      "name": "Nostril Wax",
+      "description": "",
+      "price": "£11.50",
+      "duration": "15",
+      "category": "beauty",
+      "subcategory": "Facial Wax/Threading",
+      "freshaId": "2656766",
+      "bookable": true,
+      "sortOrder": 71
+    },
+    {
+      "id": "0Ur34t9z7ywvalgOKp-Ti",
+      "name": "Eyebrow Tint",
+      "description": "Patch test required at least 48hrs prior to first treatment.",
+      "price": "£11.50",
+      "duration": "15",
+      "category": "beauty",
+      "subcategory": "Lash/Brow Tint",
+      "freshaId": "1032080",
+      "bookable": true,
+      "sortOrder": 72
+    },
+    {
+      "id": "9h5qiqNtqhG2r6Jt-s9RW",
+      "name": "Hybrid Brow Tint and Wax",
+      "description": "Results lasts up to 10 days on the skin and up to 6 weeks on the hair. Patch test required at least 48hrs prior",
+      "price": "£30.00",
+      "duration": "30",
+      "category": "beauty",
+      "subcategory": "Lash/Brow Tint",
+      "bookable": true,
+      "sortOrder": 73
+    },
+    {
+      "id": "FqnP2GlVBChfZHsi2c3j4",
+      "name": "Eyelash Tint",
+      "description": "Patch test required at least 48hrs prior to first treatment.",
+      "price": "£12.50",
+      "duration": "15",
+      "category": "beauty",
+      "subcategory": "Lash/Brow Tint",
+      "freshaId": "1032081",
+      "bookable": true,
+      "sortOrder": 74
+    },
+    {
+      "id": "I8Uv7gMHxybPkV94Njoiq",
+      "name": "Brow Lamination",
+      "description": "Includes shape and tint. Patch test required atleast 48hrs prior to treatment.",
+      "price": "£41.00",
+      "duration": "60",
+      "category": "beauty",
+      "subcategory": "Lash/Brow Tint",
+      "freshaId": "8473184",
+      "bookable": true,
+      "sortOrder": 75
+    },
+    {
+      "id": "eCcz6DjTdvAPyk4w6_ePX",
+      "name": "Brow Lamination and Tox",
+      "description": "Includes shaping, tint and maximising cream, aka tox, to strengthen and nourish brows. Patch test required atleast 48hrs prior to treatment.",
+      "price": "£46.00",
+      "duration": "60",
+      "category": "beauty",
+      "subcategory": "Lash/Brow Tint",
+      "freshaId": "22497195",
+      "bookable": true,
+      "sortOrder": 76
+    },
+    {
+      "id": "-UlyHyYz5wShzH40W_Odk",
+      "name": "Brow Lamination, Hybrid Tint and Tox",
+      "description": "Includes shaping, hybrid tint and maximising cream, aka tox, to strengthen and nourish brows. Patch test required atleast 48hrs prior to treatment.",
+      "price": "£56.00",
+      "duration": "90",
+      "category": "beauty",
+      "subcategory": "Lash/Brow Tint",
+      "freshaId": "24054246",
+      "bookable": true,
+      "sortOrder": 77
+    },
+    {
+      "id": "NAnX9b9BkTrcu8kM8xcrR",
+      "name": "Lift and Define Duo",
+      "description": "Lash Lift & Brow Lamination combination",
+      "price": "£75.00",
+      "duration": "120",
+      "category": "beauty",
+      "subcategory": "Lash/Brow Tint",
+      "freshaId": "22981074",
+      "bookable": true,
+      "sortOrder": 78
+    },
+    {
+      "id": "x0ZJcEbYePLE9dgUUHGdO",
+      "name": "Lash Lift",
+      "description": "Patch test is required at least 48hrs prior to first treatment.",
+      "price": "£41.00",
+      "duration": "60",
+      "category": "beauty",
+      "subcategory": "Lash Lift",
+      "freshaId": "1199076",
+      "bookable": true,
+      "sortOrder": 79
+    },
+    {
+      "id": "1x8yXqymR6zE7Aa3R1Q4K",
+      "name": "Lash Lift and Tox",
+      "description": "Patch test required at least 48hrs prior to first treatment.",
+      "price": "£46.00",
+      "duration": "60",
+      "category": "beauty",
+      "subcategory": "Lash Lift",
+      "freshaId": "22497391",
+      "bookable": true,
+      "sortOrder": 80
+    },
+    {
+      "id": "adVlGQU7lMj1q5--4w871",
+      "name": "Half Leg Wax",
+      "description": "",
+      "price": "£26.00",
+      "duration": "30",
+      "category": "beauty",
+      "subcategory": "Body Waxing",
+      "freshaId": "1042173",
+      "bookable": true,
+      "sortOrder": 81
+    },
+    {
+      "id": "jrq4EIzfGoURJKqX6fU16",
+      "name": "Full Leg Wax",
+      "description": "",
+      "price": "£36.00",
+      "duration": "45",
+      "category": "beauty",
+      "subcategory": "Body Waxing",
+      "freshaId": "1042180",
+      "bookable": true,
+      "sortOrder": 82
+    },
+    {
+      "id": "7bLfq2o22zCwtQHtS_Cqd",
+      "name": "Bikini Wax",
+      "description": "",
+      "price": "£23.00",
+      "duration": "30",
+      "category": "beauty",
+      "subcategory": "Body Waxing",
+      "freshaId": "1042193",
+      "bookable": true,
+      "sortOrder": 83
+    },
+    {
+      "id": "bdSrI7SL8tx1S6hQTLkS-",
+      "name": "Intimate Bikini Wax",
+      "description": "",
+      "price": "£35.00",
+      "duration": "30",
+      "category": "beauty",
+      "subcategory": "Body Waxing",
+      "freshaId": "1042195",
+      "bookable": true,
+      "sortOrder": 84
+    },
+    {
+      "id": "y4fjz4TRldYB3Lr5S2GdI",
+      "name": "Underarm Wax",
+      "description": "",
+      "price": "£14.00",
+      "duration": "15",
+      "category": "beauty",
+      "subcategory": "Body Waxing",
+      "freshaId": "1042201",
+      "bookable": true,
+      "sortOrder": 85
+    },
+    {
+      "id": "cOFg456jnSwAEwb2UaFRl",
+      "name": "Chest Wax",
+      "description": "",
+      "price": "£37.00",
+      "duration": "45",
+      "category": "beauty",
+      "subcategory": "Body Waxing",
+      "freshaId": "1042219",
+      "bookable": true,
+      "sortOrder": 86
+    },
+    {
+      "id": "EiWDCWM1ZaG6Az17Mp5BH",
+      "name": "Back Wax",
+      "description": "",
+      "price": "£37.00",
+      "duration": "45",
+      "category": "beauty",
+      "subcategory": "Body Waxing",
+      "freshaId": "1042214",
+      "bookable": true,
+      "sortOrder": 87
+    },
+    {
+      "id": "-n4fOhbBer0zT3nGTybtR",
+      "name": "Mini Facial",
+      "description": "A quick fix with a cleanse, tone and moisturise.",
+      "price": "£30.00",
+      "duration": "20",
+      "category": "beauty",
+      "subcategory": "Facial",
+      "freshaId": "1032133",
+      "bookable": true,
+      "sortOrder": 88
+    },
+    {
+      "id": "Tm7ahc0NIGZK5WeSFCoBZ",
+      "name": "Standard Facial",
+      "description": "A cleanse, deep cleanse, exfoliate, massage, mask, tone and moisturise.",
+      "price": "£35.00",
+      "duration": "45",
+      "category": "beauty",
+      "subcategory": "Facial",
+      "freshaId": "1032139",
+      "bookable": true,
+      "sortOrder": 89
+    },
+    {
+      "id": "_q3YhcWKKw0_xu6_Tu0pN",
+      "name": "Luxury Facial",
+      "description": "A cleanse, deep cleanse, steam, extraction, exfoliate, 20 minute Facial, neck and shoulder massage, mask, head massage, tone and moisturise.",
+      "price": "£40.00",
+      "duration": "60",
+      "category": "beauty",
+      "subcategory": "Facial",
+      "freshaId": "1032146",
+      "bookable": true,
+      "sortOrder": 90
+    },
+    {
+      "id": "fKVa49IoWNMlTCSEDz-sN",
+      "name": "Bamboo Full Body",
+      "description": "",
+      "price": "£45.00",
+      "duration": "75",
+      "category": "beauty",
+      "subcategory": "Holistics",
+      "freshaId": "24551914",
+      "bookable": true,
+      "sortOrder": 91
+    },
+    {
+      "id": "ezpkcExn7LrRhN4_eS_Nd",
+      "name": "Two hours Full Body with Mini Facial",
+      "description": "",
+      "price": "£80.00",
+      "duration": "120",
+      "category": "beauty",
+      "subcategory": "Holistics",
+      "freshaId": "24551948",
+      "bookable": true,
+      "sortOrder": 92
+    },
+    {
+      "id": "oSk3AnjyoxJxA0DdyX0j6",
+      "name": "Kid's Massage",
+      "description": "",
+      "price": "£28.00",
+      "duration": "40",
+      "category": "beauty",
+      "subcategory": "Holistics",
+      "freshaId": "24551934",
+      "bookable": true,
+      "sortOrder": 93
+    },
+    {
+      "id": "nMnysmlQrehUi0LVs69NZ",
+      "name": "Hopi Ear Candle",
+      "description": "",
+      "price": "£34.00",
+      "duration": "45",
+      "category": "beauty",
+      "subcategory": "Holistics",
+      "freshaId": "24666966",
+      "bookable": true,
+      "sortOrder": 94
+    },
+    {
+      "id": "jFZ_HQdRok4PCLGfqUYNN",
+      "name": "Reflexology taster",
+      "description": "",
+      "price": "£18.00",
+      "duration": "15",
+      "category": "beauty",
+      "subcategory": "Holistics",
+      "freshaId": "1383102",
+      "bookable": true,
+      "sortOrder": 95
+    },
+    {
+      "id": "_T5GTOPVnFqlyw8_OumVC",
+      "name": "Reflexology",
+      "description": "",
+      "price": "£45.00",
+      "duration": "60",
+      "category": "beauty",
+      "subcategory": "Holistics",
+      "freshaId": "24551599",
+      "bookable": true,
+      "sortOrder": 96
+    },
+    {
+      "id": "tuMbMeMqw-wQYctiaE-S5",
+      "name": "Aromatherapy Massage - Full Body, Scalp",
+      "description": "",
+      "price": "£62.00",
+      "duration": "75",
+      "category": "beauty",
+      "subcategory": "Holistics",
+      "freshaId": "24551592",
+      "bookable": true,
+      "sortOrder": 97
+    },
+    {
+      "id": "sazR1daRFGkPtg0BaJGHo",
+      "name": "Aromatherapy Massage - Full Body",
+      "description": "",
+      "price": "£50.00",
+      "duration": "60",
+      "category": "beauty",
+      "subcategory": "Holistics",
+      "freshaId": "24551573",
+      "bookable": true,
+      "sortOrder": 98
+    },
+    {
+      "id": "tCZm8ixhevkMxoFVAoPkv",
+      "name": "Aromatherapy Massage - Back, Shoulder, Neck",
+      "description": "",
+      "price": "£35.00",
+      "duration": "30",
+      "category": "beauty",
+      "subcategory": "Holistics",
+      "freshaId": "24551587",
+      "bookable": true,
+      "sortOrder": 99
+    },
+    {
+      "id": "SREwgL71KeA62uWOn0LKg",
+      "name": "Swedish Massage - Full Body, Scalp",
+      "description": "",
+      "price": "£56.00",
+      "duration": "75",
+      "category": "beauty",
+      "subcategory": "Holistics",
+      "freshaId": "24551545",
+      "bookable": true,
+      "sortOrder": 100
+    },
+    {
+      "id": "BaM7n2AtlxLrLKujoHxcA",
+      "name": "Swedish Massage - Full Body",
+      "description": "",
+      "price": "£45.00",
+      "duration": "60",
+      "category": "beauty",
+      "subcategory": "Holistics",
+      "freshaId": "24551523",
+      "bookable": true,
+      "sortOrder": 101
+    },
+    {
+      "id": "ZGEWWINkO8w31sfVWRxx-",
+      "name": "Swedish Massage - Back, Shoulder, Neck",
+      "description": "",
+      "price": "£30.00",
+      "duration": "30",
+      "category": "beauty",
+      "subcategory": "Holistics",
+      "freshaId": "24551529",
+      "bookable": true,
+      "sortOrder": 102
+    },
+    {
+      "id": "OCH6Bjna6VjSk-7MuoUjI",
+      "name": "Pregnancy Massage - Full Body with Facial",
+      "description": "",
+      "price": "£65.00",
+      "duration": "90",
+      "category": "beauty",
+      "subcategory": "Holistics",
+      "freshaId": "24551497",
+      "bookable": true,
+      "sortOrder": 103
+    },
+    {
+      "id": "pTmc9upqQcMqKL0P58Qb_",
+      "name": "Pregnancy Massage - Full Body",
+      "description": "",
+      "price": "£50.00",
+      "duration": "60",
+      "category": "beauty",
+      "subcategory": "Holistics",
+      "freshaId": "24551460",
+      "bookable": true,
+      "sortOrder": 104
+    },
+    {
+      "id": "1LSeCPc9kxrgn1hw6uYoG",
+      "name": "Pregnanct Massage - Upper Body and Bump",
+      "description": "",
+      "price": "£35.00",
+      "duration": "30",
+      "category": "beauty",
+      "subcategory": "Holistics",
+      "freshaId": "24551484",
+      "bookable": true,
+      "sortOrder": 105
+    },
+    {
+      "id": "A251agcD6rYliCVBpWUfz",
+      "name": "Lullaby Massage",
+      "description": "",
+      "price": "£55.00",
+      "duration": "60",
+      "category": "beauty",
+      "subcategory": "Holistics",
+      "bookable": false,
+      "sortOrder": 106
+    },
+    {
+      "id": "eExiWg13aG8IRTuNCzaiL",
+      "name": "Lip SPMU Consultation & Patch Test",
+      "description": "£10 consultation cost will be deducted from final price of treatment. £10 consultation cost is not refundable or to be used as credit, if you choose not to go ahead with treatment.",
+      "price": "£10.00",
+      "duration": "30",
+      "category": "beauty",
+      "subcategory": "Lip Blush",
+      "freshaId": "13946337",
+      "bookable": true,
+      "sortOrder": 107
+    },
+    {
+      "id": "K13G8OziJEicgng9Bsv3B",
+      "name": "Lip Blush",
+      "description": "First treatment and 6-8 week top up.",
+      "price": "£280.00",
+      "duration": "240",
+      "category": "beauty",
+      "subcategory": "Lip Blush",
+      "bookable": false,
+      "sortOrder": 108
+    },
+    {
+      "id": "hF4jtLOPkIHwlNUe-N2RE",
+      "name": "HD lips",
+      "description": "First treatment and 6-8 week top up.",
+      "price": "£300.00",
+      "duration": "240",
+      "category": "beauty",
+      "subcategory": "Lip Blush",
+      "bookable": false,
+      "sortOrder": 109
+    },
+    {
+      "id": "d_WAbJ7oI4N7x8liXY7wV",
+      "name": "Lip Colour Boost",
+      "description": "Up to 36 months",
+      "price": "£150.00",
+      "duration": "180",
+      "category": "beauty",
+      "subcategory": "Lip Blush",
+      "bookable": false,
+      "sortOrder": 110
+    },
+    {
+      "id": "rRgjTI4L74mSMVMjU6zTB",
+      "name": "Lip Colour Boost - Mini Touch Up",
+      "description": "Up to 12 months",
+      "price": "£100.00",
+      "duration": "180",
+      "category": "beauty",
+      "subcategory": "Lip Blush",
+      "bookable": false,
+      "sortOrder": 111
+    },
+    {
+      "id": "KxC3OQeEuBqfes--WnI6S",
+      "name": "Tattoo Removal Consultation",
+      "description": "£10 consultation cost will be deducted from final price of treatment. £10 consultation cost is not refundable or to be used as credit, if you choose not to go ahead with treatment.",
+      "price": "£10.00",
+      "duration": "15",
+      "category": "beauty",
+      "subcategory": "Tattoo Removal",
+      "bookable": true,
+      "sortOrder": 112
+    },
+    {
+      "id": "DFJglke539CuIjlQhWyLn",
+      "name": "Emergency Removal",
+      "description": "Must be within 48hrs",
+      "price": "£200.00",
+      "duration": "180",
+      "category": "beauty",
+      "subcategory": "Tattoo Removal",
+      "bookable": false,
+      "sortOrder": 113
+    },
+    {
+      "id": "yiOJ7c2Pm7T_RfPvy2XKO",
+      "name": "Small Sized Tattoo Removal",
+      "description": "",
+      "price": "£60.00",
+      "duration": "60",
+      "category": "beauty",
+      "subcategory": "Tattoo Removal",
+      "bookable": false,
+      "sortOrder": 114
+    },
+    {
+      "id": "48pXY3pDHhvap_dGFd2QL",
+      "name": "Medium Sized Tattoo Removal",
+      "description": "",
+      "price": "£80.00",
+      "duration": "60",
+      "category": "beauty",
+      "subcategory": "Tattoo Removal",
+      "bookable": false,
+      "sortOrder": 115
+    },
+    {
+      "id": "edgI1C-wUBFSQ7OlrrW-Y",
+      "name": "Large Sized Tatoo Removal",
+      "description": "Including SPMU Brows",
+      "price": "£100.00",
+      "duration": "90",
+      "category": "beauty",
+      "subcategory": "Tattoo Removal",
+      "bookable": false,
+      "sortOrder": 116
+    },
+    {
+      "id": "w1bGef23UKCT6sQ7ECKaP",
+      "name": "Ear Piercing",
+      "description": "Ear Lobes",
+      "price": "£18.00",
+      "duration": "30",
+      "category": "beauty",
+      "subcategory": "Piercing",
+      "bookable": false,
+      "sortOrder": 117
+    }
+  ],
+  "reviews": [
+    {
+      "id": "review-sarah",
+      "name": "Sarah Johnson",
+      "rating": 5,
+      "dateLabel": "2 weeks ago",
+      "text": "Absolutely amazing experience! The staff are so friendly and professional. My hair has never looked better. Will definitely be coming back!",
+      "source": "Google"
+    },
+    {
+      "id": "review-emma",
+      "name": "Emma Thompson",
+      "rating": 5,
+      "dateLabel": "1 month ago",
+      "text": "Best salon I've ever been to! The attention to detail is incredible and the results are always perfect. Highly recommend!",
+      "source": "Facebook"
+    },
+    {
+      "id": "review-lisa",
+      "name": "Lisa Brown",
+      "rating": 5,
+      "dateLabel": "3 weeks ago",
+      "text": "Carrie is an absolute gem! She made me feel so comfortable and the results were stunning. Can't wait for my next appointment!",
+      "source": "Google"
+    },
+    {
+      "id": "review-michelle",
+      "name": "Michelle Davis",
+      "rating": 5,
+      "dateLabel": "2 months ago",
+      "text": "Victoria is a true artist! She transformed my hair exactly how I wanted it. The salon has such a lovely atmosphere too.",
+      "source": "Yelp"
+    },
+    {
+      "id": "review-rachel",
+      "name": "Rachel Wilson",
+      "rating": 5,
+      "dateLabel": "1 week ago",
+      "text": "The beauty treatments here are top-notch. My skin has never felt better. The staff are so knowledgeable and friendly.",
+      "source": "Google"
+    },
+    {
+      "id": "review-sophie",
+      "name": "Sophie Anderson",
+      "rating": 5,
+      "dateLabel": "3 days ago",
+      "text": "Had my nails done by Nikki and they look amazing! Such attention to detail and the service was excellent.",
+      "source": "Facebook"
+    },
+    {
+      "id": "review-hannah",
+      "name": "Hannah Green",
+      "rating": 5,
+      "dateLabel": "2 weeks ago",
+      "text": "Lilla's facials are incredible! My skin has never looked better. The whole experience was so relaxing.",
+      "source": "Google"
+    },
+    {
+      "id": "review-jessica",
+      "name": "Jessica Taylor",
+      "rating": 5,
+      "dateLabel": "1 month ago",
+      "text": "Beth is an amazing stylist! She really listens to what you want and delivers every time. Love this salon!",
+      "source": "Yelp"
+    },
+    {
+      "id": "review-amy",
+      "name": "Amy Roberts",
+      "rating": 5,
+      "dateLabel": "2 weeks ago",
+      "text": "Mica's aesthetic treatments are fantastic! Professional, knowledgeable, and the results speak for themselves.",
+      "source": "Google"
+    },
+    {
+      "id": "review-olivia",
+      "name": "Olivia White",
+      "rating": 5,
+      "dateLabel": "3 weeks ago",
+      "text": "Georgia is a brilliant stylist! She transformed my hair and I couldn't be happier. The salon is beautiful too.",
+      "source": "Facebook"
+    },
+    {
+      "id": "review-charlotte",
+      "name": "Charlotte Harris",
+      "rating": 5,
+      "dateLabel": "1 week ago",
+      "text": "Evie's beauty treatments are amazing! So relaxing and the results are always perfect. Highly recommend!",
+      "source": "Google"
+    },
+    {
+      "id": "review-lucy",
+      "name": "Lucy Martin",
+      "rating": 5,
+      "dateLabel": "2 days ago",
+      "text": "Rachael is a fantastic stylist! She really understands what you want and delivers every time. Love this place!",
+      "source": "Yelp"
+    }
+  ],
+  "pages": {
+    "home": {
+      "heroTitle": "Victoria Rose",
+      "heroSubtitle": "Hair and Beauty Salon",
+      "heroLocation": "Mansfield Woodhouse, Nottinghamshire",
+      "servicesHeading": "Our Services",
+      "hairCardTitle": "Hair Services",
+      "hairCardDescription": "Expert hair cutting, styling, and colouring services for all hair types. From precision cuts to balayage and highlights, our experienced stylists use premium products to create your perfect look.",
+      "beautyCardTitle": "Beauty Services",
+      "beautyCardDescription": "Indulge in our comprehensive beauty treatments. From luxury manicures and pedicures to professional waxing and advanced aesthetic services. Our beauty therapists are trained in the latest techniques and use only premium products.",
+      "welcomeHeading": "Welcome to Victoria Rose",
+      "welcomeParagraphs": [
+        "We are a professional hair and beauty salon located in Mansfield Woodhouse, offering a wide range of services to help you look and feel your best.",
+        "Our team of experienced professionals are dedicated to providing exceptional service and outstanding results for every client in and around Nottinghamshire since 2012."
+      ],
+      "welcomeCta": "Learn More About Us",
+      "ctaHeading": "Ready to Book Your Appointment?",
+      "ctaBody": "Contact us today to schedule your next visit.",
+      "ctaPrimary": "Book Your Appointment",
+      "ctaSecondary": "Contact Us"
+    },
+    "about": {
+      "heroTitle": "About Us",
+      "heroSubtitle": "Your Premier Hair and Beauty Destination in Mansfield Woodhouse",
+      "storyHeading": "Our Story",
+      "storyParagraphs": [
+        "Victoria Rose Hair & Beauty Salon was founded with a vision to create a space where clients could experience exceptional hair and beauty services in a welcoming, professional environment.",
+        "Located in the heart of Mansfield Woodhouse, Nottinghamshire, our salon has become a trusted destination for those seeking premium hair and beauty treatments delivered by experienced professionals.",
+        "We pride ourselves on staying at the forefront of industry trends and techniques, ensuring our clients receive the most current and effective treatments available in the Mansfield area."
+      ],
+      "studioHeading": "Our Hair Studio",
+      "studioParagraphs": [
+        "Step into our modern hair studio in Mansfield Woodhouse, where creativity meets expertise. Our spacious and well-equipped area is designed to provide the perfect environment for all your hair care needs.",
+        "From cutting-edge styling to classic looks, our hair professionals are dedicated to bringing your vision to life in a comfortable and inspiring space in the heart of Nottinghamshire."
+      ],
+      "suiteHeading": "Our Beauty Suite",
+      "suiteParagraphs": [
+        "Discover our tranquil beauty suite in Mansfield Woodhouse, a sanctuary designed for relaxation and rejuvenation. Our dedicated beauty area offers a peaceful retreat for all your beauty treatments.",
+        "Whether you're here for a facial, massage, or any of our beauty services, our serene environment ensures a truly pampering experience in the heart of Nottinghamshire."
+      ],
+      "valuesHeading": "Our Values",
+      "valuesIntro": "At Victoria Rose Salon, we're committed to excellence in everything we do.",
+      "values": [
+        {
+          "title": "Excellence",
+          "description": "We strive for excellence in every service we provide, ensuring each client leaves feeling beautiful and confident."
+        },
+        {
+          "title": "Professionalism",
+          "description": "Our team of experienced professionals is dedicated to delivering the highest standard of service in a welcoming environment."
+        },
+        {
+          "title": "Innovation",
+          "description": "We continuously update our skills and techniques to offer the latest trends and treatments in hair and beauty."
+        }
+      ],
+      "ctaHeading": "Ready to Experience Victoria Rose?",
+      "ctaBody": "Book your appointment today and discover why we're Mansfield's premier hair and beauty destination."
+    },
+    "hair": {
+      "heroTitle": "Hair Services",
+      "heroSubtitle": "Expert Styling for Every Look",
+      "sectionHeading": "Our Hair Services",
+      "sectionIntro": "From classic cuts to creative colouring, our expert stylists deliver exceptional results."
+    },
+    "beauty": {
+      "heroTitle": "Beauty Services",
+      "heroSubtitle": "Enhance Your Natural Beauty",
+      "sectionHeading": "Our Beauty Services",
+      "sectionIntro": "Comprehensive beauty treatments delivered by our expert technicians."
+    },
+    "reviews": {
+      "heroTitle": "Reviews",
+      "heroSubtitle": "What Our Clients Say",
+      "allReviewsUrl": "https://www.google.com/search?q=Victoria+Rose+Hair+%26+Beauty+Reviews",
+      "allReviewsLabel": "See All Reviews"
+    },
+    "contact": {
+      "heroTitle": "Contact Us",
+      "heroSubtitle": "Get in touch with Victoria Rose",
+      "infoHeading": "Contact Information",
+      "bookingHeading": "Book Your Appointment",
+      "bookingBody": "Ready to experience the Victoria Rose difference? Book your appointment online or give us a call.",
+      "mapHeading": "Find Us"
+    },
+    "policies": {
+      "heroTitle": "Booking & Policies",
+      "heroSubtitle": "Important Information for Your Visit",
+      "sections": [
+        {
+          "id": "policy-appointments",
+          "heading": "Appointments",
+          "body": "Appointments are not always necessary, however booking is advised for evenings and weekends. You can book either by calling into the salon, phoning 01623 624119 or messaging us through our Facebook page.\n\nYou can also book nail treatments and some beauty treatments online via our booking system Fresha.\n\nWhen booking your appointment, we will ask for your phone number and email address. This allows us to send you automated reminders prior to your appointment."
+        },
+        {
+          "id": "policy-cancellation",
+          "heading": "Cancellation Policy",
+          "body": "We appreciate that sometimes you may need to cancel or reschedule your appointment and kindly request that you provide at least 48 hour's notice.\n\nCancellations of less than 48hrs are required to pay 50% of the treatment value. Missed appointments, or last minute (less than 24hrs) cancellations will be charged at 100% of the reserved treatment price. This is payable before booking your next appointment. You will also be asked to pay a 100% non-refundable booking fee to secure your next appointment.\n\nBy booking an appointment with us, you agree to these terms and conditions.\n\nWe thank you for your cooperation and continued support."
+        },
+        {
+          "id": "policy-fees",
+          "heading": "Booking Fees",
+          "body": "New clients are required to pay a booking fee to secure the appointment. The booking fee is the full cost of the reserved treatment. Clients who have previously missed appointments or cancelled last minute, will also be required to pay an upfront booking fee. If the fee is not paid within 48hrs of booking, the appointment will be cancelled.\n\nYou can reschedule your appointment up to 48 hours prior to your booking and your deposit will be transferred over to your future booking.\n\nIf you are unable to reschedule, please contact us at least 48 hours before your appointment.\n\nCancellations less than 48 hours are entitled to 50% booking fee refund.\n\nBooking fees are none refundable for cancellations less than 24 hours.\n\nPlease Note: The booking fee is held by the self employed stylist/beautician for which the appointment is booked with. Responsibility is with the individual not the owners of Victoria Rose Hair & Beauty Salon."
+        },
+        {
+          "id": "policy-skin-test",
+          "heading": "Skin Testing",
+          "body": "A number of our hair and beauty services require a skin test prior to the treatment. Our customers' health and comfort are our first priority; doing a colour/tint/lash service without a skin test would put our customers at risk, which we will never do.\n\nThe purpose of a skin test is to determine if a customer will have a reaction to the products or ingredients used during a colour, lash or brow appointment. A complimentary pre-treatment skin test is performed by a qualified hairdresser or beautician in the salon. It only takes 2-5 minutes and it must be done at least two days before your first colour appointment.\n\nEvery customer who has hair colour service, brow or lash tint, lash extensions, or lash lift, needs a skin test; this must be performed at least 48 hours before your appointment, as any reactions may take up to 48 hours to appear.\n\nIf you get your hair coloured regularly with us and with the same products, you probably won't need to have a new test done each time. The results can be valid for up to 12 months, so we will keep your record card secure in our salon and let you know when it's time to re-test.\n\nIt is the responsibility of the client to plan and receive a complimentary pre-treatment skin test, within Victoria Rose Hair and Beauty, at least 48 hours ahead of any hair or beauty treatment that may cause an adverse reaction. If a skin test is not completed, we reserve the right to cancel the appointment and retain any booking fee paid.",
+          "bullets": [
+            "All hair colouring services (foils, toners or any scalp colour application)",
+            "lash lifts",
+            "brow lamination",
+            "lash tint",
+            "brow tint",
+            "lip blushing"
+          ]
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Privacy Notice",
+      "intro": "We're committed to protecting your privacy and ensuring the security of your personal information.",
+      "body": "This privacy notice explains how Victoria Rose Hair & Beauty Salon looks after personal information you give us or that we learn by having you as a client and the choices you make about communications you agree we may send you. This notice explains how we do this and tells you about your privacy rights and how the law protects you.",
+      "sections": [
+        {
+          "id": "privacy-collect",
+          "heading": "What Information We Collect About You",
+          "body": "We collect information about you when you book an appointment for a service or treatment or when you visit the salon for a service or treatment.",
+          "bullets": [
+            "Your name",
+            "Email address",
+            "Phone number (mobile & land line)",
+            "Gender",
+            "Treatment history/products used",
+            "Details of patch tests carried out for treatments such as hair colouring, lash extensions, brow & lash tinting etc.",
+            "Your address",
+            "Health/medical history",
+            "Any medication you are taking",
+            "Your GP name and address",
+            "Relevant history which may suggest that a service or treatment should not go ahead",
+            "Payment and transaction information"
+          ]
+        },
+        {
+          "id": "privacy-use",
+          "heading": "How Information About You Will Be Used",
+          "body": "In law, we are allowed to use personal information, including sharing it outside the salon, only if we have a proper reason to do so, for example:",
+          "bullets": [
+            "To fulfil a contract with you i.e. to provide the service or treatment you have requested",
+            "When it is in our legitimate interest i.e. there is a business or commercial reason to do so",
+            "When you consent to it: we will always ask for your consent to hold and use health and medical information"
+          ]
+        },
+        {
+          "id": "privacy-assistant",
+          "heading": "Virtual Assistant Data Processing",
+          "body": "When using our virtual assistant service, we collect and process the following information. This data is processed in accordance with UK GDPR requirements and is used solely for the purpose of providing you with the requested services. We do not share this information with third parties without your explicit consent.",
+          "bullets": [
+            "Conversation history for the purpose of providing assistance",
+            "Appointment booking information",
+            "Service preferences and requirements"
+          ]
+        },
+        {
+          "id": "privacy-rights",
+          "heading": "Your Rights Under UK GDPR",
+          "body": "Under the UK General Data Protection Regulation (GDPR), you have the following rights:",
+          "bullets": [
+            "The right to be informed about how your data is being used",
+            "The right to access your personal data",
+            "The right to have your data rectified if it is inaccurate or incomplete",
+            "The right to erasure (the right to be forgotten)",
+            "The right to restrict processing of your data",
+            "The right to data portability",
+            "The right to object to processing of your data",
+            "Rights in relation to automated decision making and profiling"
+          ]
+        },
+        {
+          "id": "privacy-retention",
+          "heading": "How Long Your Information Will Be Kept For",
+          "body": "For insurance purposes we are required to retain your information for 7 years. After this time, if you no longer visit us your information will be deleted/shredded and disposed of in the correct manner."
+        },
+        {
+          "id": "privacy-storage",
+          "heading": "Where Your Information Is Kept",
+          "body": "The only people to see your details are, the therapist/stylist performing the treatment, Victoria Rose team members who add your contact details on to the system and the data base company we use, called Shedul, to hold the information as noted above.\n\nYour contact information is only used to keep you informed about your appointment and is not sold on to any third parties. You can opt out of this service at any time by speaking to your stylist/therapist.\n\nAny and all paper records are protected within secured premises and are locked away."
+        },
+        {
+          "id": "privacy-access",
+          "heading": "Access to Your Information and Correction",
+          "body": "You have the right to request a copy of the personal information that we hold about you. This will normally be free, unless we consider the request to be unfounded or excessive, in which case we may charge a fee to cover our administration costs.\n\nIf you would like a copy of some or all of your personal information, please contact Carrie Healey or Victoria Clark by post."
+        },
+        {
+          "id": "privacy-contact",
+          "heading": "How to Contact Us",
+          "body": "Please contact us if you have any questions about our privacy notice or information we hold about you.\n\nYou also have the right to complain to the Information Commissioner's Office. Find out on their website how to report a concern: ico.org.uk/concerns/handling",
+          "bullets": [
+            "By phone: 01623 624119",
+            "By post: Victoria Rose Hair & Beauty Salon, 25 Dunsil Road, Mansfield Woodhouse, Notts, NG19 7GD"
+          ]
+        },
+        {
+          "id": "privacy-changes",
+          "heading": "Changes to Our Privacy Notice",
+          "body": "We keep our privacy notice under regular review and we will place any updates on this web page."
+        }
+      ]
+    }
+  }
+}

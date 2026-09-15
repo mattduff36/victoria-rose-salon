@@ -4,7 +4,6 @@ import { Service } from "@/utils/services";
 import { useState } from "react";
 import AnimatedSection from "./AnimatedSection";
 import InfoModal from "./InfoModal";
-import Link from "next/link";
 
 interface ExpandableServiceSectionProps {
   subcategory: string;
