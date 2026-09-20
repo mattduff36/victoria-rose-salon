@@ -1,7 +1,14 @@
 import Image from "next/image";
+import type { Metadata } from "next";
 import AnimatedSection from "@/components/AnimatedSection";
 import { getSiteContent } from "@/lib/content";
 import { mediaSrc } from "@/lib/content-format";
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: "/booking-policies/",
+  },
+};
 
 export default async function BookingPolicies() {
   const content = await getSiteContent();

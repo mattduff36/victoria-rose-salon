@@ -1,12 +1,13 @@
 import { MetadataRoute } from 'next'
+import { SITE_URL } from '@/lib/site'
 
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: {
       userAgent: '*',
       allow: '/',
-      disallow: ['/api/*', '/_next/*', '/static/*', '/admin', '/admin/*'],
+      disallow: ['/admin/', '/api/'],
     },
-    sitemap: 'https://victoria-rose-salon.vercel.app/sitemap.xml',
+    sitemap: `${SITE_URL}/sitemap.xml`,
   }
-} 
+}

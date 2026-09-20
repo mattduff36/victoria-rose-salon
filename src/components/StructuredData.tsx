@@ -1,5 +1,6 @@
 import type { SiteDetails } from '@/lib/content-types';
 import { toInternationalPhone } from '@/lib/content-format';
+import { SITE_URL } from '@/lib/site';
 
 export default function StructuredData({ site }: { site: SiteDetails }) {
   const openDays = site.hours.filter((entry) => !entry.closed);
@@ -7,9 +8,9 @@ export default function StructuredData({ site }: { site: SiteDetails }) {
     '@context': 'https://schema.org',
     '@type': 'HairSalon',
     name: 'Victoria Rose Hair and Beauty Salon',
-    image: 'https://victoria-rose-salon.vercel.app/Logo.jpeg',
-    '@id': 'https://victoria-rose-salon.vercel.app',
-    url: 'https://victoria-rose-salon.vercel.app',
+    image: `${SITE_URL}/Logo.jpeg`,
+    '@id': SITE_URL,
+    url: SITE_URL,
     telephone: toInternationalPhone(site.phone),
     address: {
       '@type': 'PostalAddress',

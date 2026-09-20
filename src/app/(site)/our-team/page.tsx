@@ -1,6 +1,13 @@
 import Image from "next/image";
+import type { Metadata } from "next";
 import AnimatedSection from "@/components/AnimatedSection";
 import { getSiteContent, sortTeam } from "@/lib/content";
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: "/our-team/",
+  },
+};
 
 export default async function OurTeam() {
   const content = await getSiteContent();

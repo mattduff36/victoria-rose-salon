@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     images: ["/hero-bg.jpeg"],
   },
   alternates: {
-    canonical: "https://victoria-rose-salon.vercel.app/contact",
+    canonical: "/contact/",
   },
 };
 

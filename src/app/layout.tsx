@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
+import { SITE_URL } from '@/lib/site';
 import './globals.css';
 
 const inter = Inter({ subsets: ['latin'] });
@@ -8,7 +9,7 @@ export const metadata: Metadata = {
   title: 'Victoria Rose Hair & Beauty Salon | Mansfield Woodhouse',
   description:
     'Professional hair and beauty services in Mansfield Woodhouse, Nottinghamshire. Expert stylists offering cuts, color, styling, and beauty treatments. Book your appointment today!',
-  metadataBase: new URL('https://victoria-rose-salon.vercel.app'),
+  metadataBase: new URL(SITE_URL),
   alternates: {
     canonical: '/',
   },
@@ -16,7 +17,7 @@ export const metadata: Metadata = {
     title: 'Victoria Rose Hair & Beauty Salon | Mansfield Woodhouse',
     description:
       'Professional hair and beauty services in Mansfield Woodhouse, Nottinghamshire. Expert stylists offering cuts, color, styling, and beauty treatments.',
-    url: 'https://victoria-rose-salon.vercel.app',
+    url: SITE_URL,
     siteName: 'Victoria Rose Hair & Beauty Salon',
     images: [
       {

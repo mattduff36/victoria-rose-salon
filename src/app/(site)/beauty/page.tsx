@@ -1,9 +1,16 @@
 import Image from "next/image";
+import type { Metadata } from "next";
 import AnimatedSection from "@/components/AnimatedSection";
 import { getServices, groupServicesBySubcategory } from "@/utils/services";
 import ExpandableServiceSection from "@/components/ExpandableServiceSection";
 import { getSiteContent } from "@/lib/content";
 import { mediaSrc } from "@/lib/content-format";
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: "/beauty/",
+  },
+};
 
 export default async function BeautyServices() {
   const [allServices, content] = await Promise.all([getServices(), getSiteContent()]);

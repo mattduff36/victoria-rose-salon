@@ -1,8 +1,15 @@
 import Image from "next/image";
 import Link from "next/link";
+import type { Metadata } from "next";
 import AnimatedSection from "@/components/AnimatedSection";
 import { getSiteContent } from "@/lib/content";
 import { formatHoursLine, mediaSrc } from "@/lib/content-format";
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: "/appointments/",
+  },
+};
 
 export default async function Appointments() {
   const content = await getSiteContent();

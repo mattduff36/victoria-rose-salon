@@ -1,5 +1,12 @@
+import type { Metadata } from "next";
 import AnimatedSection from "@/components/AnimatedSection";
 import { getSiteContent } from "@/lib/content";
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: "/privacy/",
+  },
+};
 
 export default async function Privacy() {
   const content = await getSiteContent();

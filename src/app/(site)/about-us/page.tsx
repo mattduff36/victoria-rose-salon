@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     images: ["/Logo.jpeg"],
   },
   alternates: {
-    canonical: "https://victoria-rose-salon.vercel.app/about-us",
+    canonical: "/about-us/",
   },
 };
 

@@ -1,19 +1,11 @@
 import { MetadataRoute } from 'next'
+import { PUBLIC_PATHS, SITE_URL } from '@/lib/site'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://victoria-rose-salon.vercel.app'
-  
-  // Define your routes
-  const routes = [
-    '',
-    '/about',
-    '/contact',
-  ].map((route) => ({
-    url: `${baseUrl}${route}`,
+  return PUBLIC_PATHS.map((path) => ({
+    url: `${SITE_URL}${path}`,
     lastModified: new Date(),
     changeFrequency: 'weekly' as const,
-    priority: route === '' ? 1 : 0.8,
+    priority: path === '/' ? 1 : 0.8,
   }));
-
-  return routes;
-} 
+}
